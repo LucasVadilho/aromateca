@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: #111;
+      font-family: sans-serif;
+    }
+
+    line {
+      stroke: #666;
+    }
+
+    image {
+      clip-path: circle(50%);
+      cursor: pointer;
+    }
+
+    #popup {
+      position: absolute;
+
+      background: white;
+      color: black;
+
+      padding: 12px;
+      border-radius: 10px;
+
+      display: none;
+
+      min-width: 120px;
+
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="popup">DIV</div>
+
+<svg width="100vw" height="100vh"></svg>
+
+<script>
+
+const width = window.innerWidth;
+const height = window.innerHeight;
+
+const svg = d3.select("svg")
+  .attr("width", width)
+  .attr("height", height);
+
+const popup = d3.select("#popup");
+
+d3.json("graph.json").then(data => {
+
+  // rename edges -> links
+  data.links = data.edges;
+  delete data.edges;
+
+  const simulation = d3.forceSimulation(data.nodes)
+    .force("link",
+      d3.forceLink(data.links)
+        .id(d => d.id)
+        .distance(150)
+    )
+    .force("charge", d3.forceManyBody().strength(-400))
+    .force("center", d3.forceCenter(width / 2, height / 2));
+
+  const link = svg.selectAll("line")
+    .data(data.links)
+    .enter()
+    .append("line");
+
+  const node = svg.selectAll("image")
+    .data(data.nodes)
+    .enter()
+    .append("image")
+    .attr("href", d => d.image.split(",")[0])
+    .attr("width", 60)
+    .attr("height", 60)
+
+    .on("click", (event, d) => {
+
+      popup
+        .style("display", "block")
+        .style("left", `${d.x + 40}px`)
+        .style("top", `${d.y}px`)
+        .html(`
+          <b>${d.id}</b>
+          <div>DIV</div>
+        `);
+
+    });
+
+  simulation.on("tick", () => {
+
+    link
+      .attr("x1", d => d.source.x)
+      .attr("y1", d => d.source.y)
+      .attr("x2", d => d.target.x)
+      .attr("y2", d => d.target.y);
+
+    node
+      .attr("x", d => d.x - 30)
+      .attr("y", d => d.y - 30);
+
+  });
+
+});
+
+</script>
+</body>
+</html>

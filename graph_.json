@@ -1,0 +1,2726 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "description": "Camomila \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "floral",
+                "doce",
+                "herbal"
+            ],
+            "sabor": [
+                "suave",
+                "adocicado"
+            ],
+            "textura": [
+                "seca",
+                "leve"
+            ],
+            "price": 4.82,
+            "image": "https://picsum.photos/200",
+            "id": "Camomila"
+        },
+        {
+            "description": "Melissa \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "c\u00edtrico",
+                "herbal",
+                "fresco"
+            ],
+            "sabor": [
+                "leve",
+                "refrescante"
+            ],
+            "textura": [
+                "macia",
+                "fresca"
+            ],
+            "price": 12.39,
+            "image": "https://picsum.photos/200",
+            "id": "Melissa"
+        },
+        {
+            "description": "Campim lim\u00e3o \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "c\u00edtrico",
+                "fresco",
+                "herbal"
+            ],
+            "sabor": [
+                "c\u00edtrico",
+                "leve"
+            ],
+            "textura": [
+                "fibrosa",
+                "fresca"
+            ],
+            "price": 6.61,
+            "image": "https://picsum.photos/200",
+            "id": "Campim lim\u00e3o"
+        },
+        {
+            "description": "Noz moscada \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "quente",
+                "amadeirado",
+                "doce"
+            ],
+            "sabor": [
+                "picante",
+                "adocicado"
+            ],
+            "textura": [
+                "seca",
+                "densa"
+            ],
+            "price": 6.24,
+            "image": "https://picsum.photos/200",
+            "id": "Noz moscada"
+        },
+        {
+            "description": "Canela \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "doce",
+                "amadeirado",
+                "quente"
+            ],
+            "sabor": [
+                "doce",
+                "picante"
+            ],
+            "textura": [
+                "seca",
+                "r\u00edgida"
+            ],
+            "price": 13.05,
+            "image": "https://picsum.photos/200",
+            "id": "Canela"
+        },
+        {
+            "description": "C\u00farcuma \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "terroso",
+                "quente"
+            ],
+            "sabor": [
+                "terroso",
+                "levemente amargo"
+            ],
+            "textura": [
+                "seca",
+                "fina"
+            ],
+            "price": 8.68,
+            "image": "https://picsum.photos/200",
+            "id": "C\u00farcuma"
+        },
+        {
+            "description": "Pimenta preta \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "picante",
+                "amadeirado"
+            ],
+            "sabor": [
+                "forte",
+                "picante"
+            ],
+            "textura": [
+                "seca",
+                "granulada"
+            ],
+            "price": 8.0,
+            "image": "https://picsum.photos/200",
+            "id": "Pimenta preta"
+        },
+        {
+            "description": "Tomilho \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "herbal",
+                "terroso"
+            ],
+            "sabor": [
+                "leve",
+                "picante"
+            ],
+            "textura": [
+                "seca",
+                "fina"
+            ],
+            "price": 4.72,
+            "image": "https://picsum.photos/200",
+            "id": "Tomilho"
+        },
+        {
+            "description": "Orange peper \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "frutado",
+                "picante"
+            ],
+            "sabor": [
+                "ardente",
+                "doce"
+            ],
+            "textura": [
+                "crocante",
+                "firme"
+            ],
+            "price": 4.48,
+            "image": "https://picsum.photos/200",
+            "id": "Orange peper"
+        },
+        {
+            "description": "P\u00e1prica \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "defumado",
+                "doce"
+            ],
+            "sabor": [
+                "leve",
+                "picante"
+            ],
+            "textura": [
+                "fina",
+                "seca"
+            ],
+            "price": 14.6,
+            "image": "https://picsum.photos/200",
+            "id": "P\u00e1prica"
+        },
+        {
+            "description": "Alfavaca \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "doce",
+                "herbal"
+            ],
+            "sabor": [
+                "fresco",
+                "levemente doce"
+            ],
+            "textura": [
+                "macia",
+                "fresca"
+            ],
+            "price": 4.08,
+            "image": "https://picsum.photos/200",
+            "id": "Alfavaca"
+        },
+        {
+            "description": "Hortel\u00e3 grosso \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "mentolado",
+                "forte"
+            ],
+            "sabor": [
+                "herbal",
+                "refrescante"
+            ],
+            "textura": [
+                "macia",
+                "carnuda"
+            ],
+            "price": 4.92,
+            "image": "https://picsum.photos/200",
+            "id": "Hortel\u00e3 grosso"
+        },
+        {
+            "description": "Sal \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "mineral",
+                "neutro"
+            ],
+            "sabor": [
+                "salgado"
+            ],
+            "textura": [
+                "granulada",
+                "seca"
+            ],
+            "price": 10.28,
+            "image": "https://picsum.photos/200",
+            "id": "Sal"
+        },
+        {
+            "description": "MSG \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "neutro"
+            ],
+            "sabor": [
+                "umami",
+                "intenso"
+            ],
+            "textura": [
+                "fina",
+                "seca"
+            ],
+            "price": 10.6,
+            "image": "https://picsum.photos/200",
+            "id": "MSG"
+        },
+        {
+            "description": "Flor de sal \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "mineral",
+                "suave"
+            ],
+            "sabor": [
+                "salgado",
+                "sutil"
+            ],
+            "textura": [
+                "crocante",
+                "leve"
+            ],
+            "price": 10.84,
+            "image": "https://picsum.photos/200",
+            "id": "Flor de sal"
+        },
+        {
+            "description": "Cominho \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "terroso",
+                "quente"
+            ],
+            "sabor": [
+                "forte",
+                "picante"
+            ],
+            "textura": [
+                "seca",
+                "granulada"
+            ],
+            "price": 8.5,
+            "image": "https://picsum.photos/200",
+            "id": "Cominho"
+        },
+        {
+            "description": "Alecrim \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "resinoso",
+                "herbal"
+            ],
+            "sabor": [
+                "forte",
+                "fresco"
+            ],
+            "textura": [
+                "fibrosa",
+                "seca"
+            ],
+            "price": 3.5,
+            "image": "https://picsum.photos/200",
+            "id": "Alecrim"
+        },
+        {
+            "description": "Or\u00e9gano \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "herbal",
+                "terroso"
+            ],
+            "sabor": [
+                "marcante",
+                "levemente amargo"
+            ],
+            "textura": [
+                "seca",
+                "fina"
+            ],
+            "price": 5.11,
+            "image": "https://picsum.photos/200",
+            "id": "Or\u00e9gano"
+        },
+        {
+            "description": "Manjeric\u00e3o \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "doce",
+                "fresco"
+            ],
+            "sabor": [
+                "herbal",
+                "suave"
+            ],
+            "textura": [
+                "macia",
+                "fresca"
+            ],
+            "price": 2.29,
+            "image": "https://picsum.photos/200",
+            "id": "Manjeric\u00e3o"
+        },
+        {
+            "description": "Louro \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "amadeirado",
+                "herbal"
+            ],
+            "sabor": [
+                "leve",
+                "amargo"
+            ],
+            "textura": [
+                "seca",
+                "r\u00edgida"
+            ],
+            "price": 4.29,
+            "image": "https://picsum.photos/200",
+            "id": "Louro"
+        },
+        {
+            "description": "Cravo \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "doce",
+                "intenso"
+            ],
+            "sabor": [
+                "picante",
+                "adocicado"
+            ],
+            "textura": [
+                "seca",
+                "dura"
+            ],
+            "price": 12.82,
+            "image": "https://picsum.photos/200",
+            "id": "Cravo"
+        },
+        {
+            "description": "Erva doce \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "anisado",
+                "doce"
+            ],
+            "sabor": [
+                "doce",
+                "refrescante"
+            ],
+            "textura": [
+                "seca",
+                "crocante"
+            ],
+            "price": 8.67,
+            "image": "https://picsum.photos/200",
+            "id": "Erva doce"
+        },
+        {
+            "description": "S\u00e1lvia \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "herbal",
+                "terroso"
+            ],
+            "sabor": [
+                "forte",
+                "levemente amargo"
+            ],
+            "textura": [
+                "aveludada",
+                "seca"
+            ],
+            "price": 4.86,
+            "image": "https://picsum.photos/200",
+            "id": "S\u00e1lvia"
+        },
+        {
+            "description": "Coentro \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "c\u00edtrico",
+                "herbal"
+            ],
+            "sabor": [
+                "fresco",
+                "intenso"
+            ],
+            "textura": [
+                "macia",
+                "fresca"
+            ],
+            "price": 13.45,
+            "image": "https://picsum.photos/200",
+            "id": "Coentro"
+        },
+        {
+            "description": "Pimenta calabresa \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "defumado",
+                "picante"
+            ],
+            "sabor": [
+                "ardente"
+            ],
+            "textura": [
+                "seca",
+                "crocante"
+            ],
+            "price": 3.64,
+            "image": "https://picsum.photos/200",
+            "id": "Pimenta calabresa"
+        },
+        {
+            "description": "Gengibre \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "c\u00edtrico",
+                "picante"
+            ],
+            "sabor": [
+                "picante",
+                "fresco"
+            ],
+            "textura": [
+                "fibrosa",
+                "firme"
+            ],
+            "price": 6.73,
+            "image": "https://picsum.photos/200",
+            "id": "Gengibre"
+        },
+        {
+            "description": "Cardamomo \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "c\u00edtrico",
+                "doce"
+            ],
+            "sabor": [
+                "intenso",
+                "refrescante"
+            ],
+            "textura": [
+                "seca",
+                "crocante"
+            ],
+            "price": 11.03,
+            "image": "https://picsum.photos/200",
+            "id": "Cardamomo"
+        },
+        {
+            "description": "Baunilha \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "doce",
+                "cremoso"
+            ],
+            "sabor": [
+                "adocicado",
+                "suave"
+            ],
+            "textura": [
+                "oleosa",
+                "macia"
+            ],
+            "price": 13.66,
+            "image": "https://picsum.photos/200",
+            "id": "Baunilha"
+        },
+        {
+            "description": "Anis estrelado \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "anisado",
+                "doce"
+            ],
+            "sabor": [
+                "forte",
+                "doce"
+            ],
+            "textura": [
+                "seca",
+                "dura"
+            ],
+            "price": 1.03,
+            "image": "https://picsum.photos/200",
+            "id": "Anis estrelado"
+        },
+        {
+            "description": "Pimenta rosa \u00e9 um ingrediente arom\u00e1tico amplamente utilizado na culin\u00e1ria e em infus\u00f5es. Possui caracter\u00edsticas marcantes de aroma e sabor, podendo variar entre notas herbais, doces, c\u00edtricas ou picantes. \u00c9 comum em receitas tradicionais, temperos, bebidas e prepara\u00e7\u00f5es artesanais.",
+            "aroma": [
+                "frutado",
+                "suave"
+            ],
+            "sabor": [
+                "leve",
+                "picante"
+            ],
+            "textura": [
+                "seca",
+                "crocante"
+            ],
+            "price": 10.28,
+            "image": "https://picsum.photos/200",
+            "id": "Pimenta rosa"
+        }
+    ],
+    "edges": [
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Camomila",
+            "target": "Campim lim\u00e3o"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Camomila",
+            "target": "Noz moscada"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "Canela"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "C\u00farcuma"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Camomila",
+            "target": "Pimenta preta"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Camomila",
+            "target": "Orange peper"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "Alfavaca"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Camomila",
+            "target": "Hortel\u00e3 grosso"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "Sal"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "MSG"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Camomila",
+            "target": "Flor de sal"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "Alecrim"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Camomila",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Camomila",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Camomila",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Camomila",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Camomila",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Melissa",
+            "target": "Campim lim\u00e3o"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Melissa",
+            "target": "Noz moscada"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "Canela"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "C\u00farcuma"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Melissa",
+            "target": "Pimenta preta"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Melissa",
+            "target": "Orange peper"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "Alfavaca"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Melissa",
+            "target": "Hortel\u00e3 grosso"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "Sal"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "MSG"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Melissa",
+            "target": "Flor de sal"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "Alecrim"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Melissa",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Melissa",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Melissa",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Melissa",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Melissa",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Campim lim\u00e3o",
+            "target": "Noz moscada"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "Canela"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "C\u00farcuma"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Campim lim\u00e3o",
+            "target": "Pimenta preta"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Campim lim\u00e3o",
+            "target": "Orange peper"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "Alfavaca"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Campim lim\u00e3o",
+            "target": "Hortel\u00e3 grosso"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "Sal"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "MSG"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Campim lim\u00e3o",
+            "target": "Flor de sal"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "Alecrim"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Campim lim\u00e3o",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Campim lim\u00e3o",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Campim lim\u00e3o",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Campim lim\u00e3o",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Campim lim\u00e3o",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "Canela"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "C\u00farcuma"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Noz moscada",
+            "target": "Pimenta preta"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Noz moscada",
+            "target": "Orange peper"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "Alfavaca"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Noz moscada",
+            "target": "Hortel\u00e3 grosso"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "Sal"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "MSG"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Noz moscada",
+            "target": "Flor de sal"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "Alecrim"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Noz moscada",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Noz moscada",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Noz moscada",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Noz moscada",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Noz moscada",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Canela",
+            "target": "C\u00farcuma"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Canela",
+            "target": "Pimenta preta"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Canela",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Canela",
+            "target": "Orange peper"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Canela",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Canela",
+            "target": "Alfavaca"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Canela",
+            "target": "Hortel\u00e3 grosso"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Canela",
+            "target": "Sal"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Canela",
+            "target": "MSG"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Canela",
+            "target": "Flor de sal"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Canela",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Canela",
+            "target": "Alecrim"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Canela",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Canela",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Canela",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Canela",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Canela",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Canela",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Canela",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Canela",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Canela",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Canela",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Canela",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Canela",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Canela",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "C\u00farcuma",
+            "target": "Pimenta preta"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "C\u00farcuma",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "C\u00farcuma",
+            "target": "Orange peper"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "C\u00farcuma",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "C\u00farcuma",
+            "target": "Alfavaca"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "C\u00farcuma",
+            "target": "Hortel\u00e3 grosso"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "C\u00farcuma",
+            "target": "Sal"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "C\u00farcuma",
+            "target": "MSG"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "C\u00farcuma",
+            "target": "Flor de sal"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "C\u00farcuma",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "C\u00farcuma",
+            "target": "Alecrim"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "C\u00farcuma",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "C\u00farcuma",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "C\u00farcuma",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "C\u00farcuma",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "C\u00farcuma",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "C\u00farcuma",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "C\u00farcuma",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "C\u00farcuma",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "C\u00farcuma",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "C\u00farcuma",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "C\u00farcuma",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "C\u00farcuma",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "C\u00farcuma",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta preta",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Pimenta preta",
+            "target": "Orange peper"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta preta",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta preta",
+            "target": "Alfavaca"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Pimenta preta",
+            "target": "Hortel\u00e3 grosso"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta preta",
+            "target": "Sal"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta preta",
+            "target": "MSG"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Pimenta preta",
+            "target": "Flor de sal"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta preta",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta preta",
+            "target": "Alecrim"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta preta",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta preta",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta preta",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta preta",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Pimenta preta",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta preta",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta preta",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9629629629629632,
+            "source": "Pimenta preta",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta preta",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta preta",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta preta",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Pimenta preta",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9629629629629632,
+            "source": "Pimenta preta",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Tomilho",
+            "target": "Orange peper"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Tomilho",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Tomilho",
+            "target": "Alfavaca"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Tomilho",
+            "target": "Hortel\u00e3 grosso"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Tomilho",
+            "target": "Sal"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Tomilho",
+            "target": "MSG"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Tomilho",
+            "target": "Flor de sal"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Tomilho",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Tomilho",
+            "target": "Alecrim"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Tomilho",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Tomilho",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Tomilho",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Tomilho",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Tomilho",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Tomilho",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Tomilho",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Tomilho",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Tomilho",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Tomilho",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Tomilho",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Tomilho",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Tomilho",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Orange peper",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Orange peper",
+            "target": "Alfavaca"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Orange peper",
+            "target": "Hortel\u00e3 grosso"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Orange peper",
+            "target": "Sal"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Orange peper",
+            "target": "MSG"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Orange peper",
+            "target": "Flor de sal"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Orange peper",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Orange peper",
+            "target": "Alecrim"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Orange peper",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Orange peper",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Orange peper",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Orange peper",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Orange peper",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Orange peper",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Orange peper",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Orange peper",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Orange peper",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Orange peper",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Orange peper",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Orange peper",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Orange peper",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "P\u00e1prica",
+            "target": "Alfavaca"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "P\u00e1prica",
+            "target": "Hortel\u00e3 grosso"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "P\u00e1prica",
+            "target": "Sal"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "P\u00e1prica",
+            "target": "MSG"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "P\u00e1prica",
+            "target": "Flor de sal"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "P\u00e1prica",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "P\u00e1prica",
+            "target": "Alecrim"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "P\u00e1prica",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "P\u00e1prica",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "P\u00e1prica",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "P\u00e1prica",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "P\u00e1prica",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "P\u00e1prica",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "P\u00e1prica",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "P\u00e1prica",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "P\u00e1prica",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "P\u00e1prica",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "P\u00e1prica",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "P\u00e1prica",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "P\u00e1prica",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Alfavaca",
+            "target": "Hortel\u00e3 grosso"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alfavaca",
+            "target": "Sal"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alfavaca",
+            "target": "MSG"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Alfavaca",
+            "target": "Flor de sal"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alfavaca",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alfavaca",
+            "target": "Alecrim"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alfavaca",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alfavaca",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alfavaca",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alfavaca",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Alfavaca",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alfavaca",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alfavaca",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Alfavaca",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alfavaca",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alfavaca",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alfavaca",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Alfavaca",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Alfavaca",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Hortel\u00e3 grosso",
+            "target": "Sal"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Hortel\u00e3 grosso",
+            "target": "MSG"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Hortel\u00e3 grosso",
+            "target": "Flor de sal"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Hortel\u00e3 grosso",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Hortel\u00e3 grosso",
+            "target": "Alecrim"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Hortel\u00e3 grosso",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Hortel\u00e3 grosso",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Hortel\u00e3 grosso",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Hortel\u00e3 grosso",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Hortel\u00e3 grosso",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Hortel\u00e3 grosso",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Hortel\u00e3 grosso",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Hortel\u00e3 grosso",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Hortel\u00e3 grosso",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Hortel\u00e3 grosso",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Hortel\u00e3 grosso",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Hortel\u00e3 grosso",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Hortel\u00e3 grosso",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Sal",
+            "target": "MSG"
+        },
+        {
+            "weight": 0.9813067629253165,
+            "source": "Sal",
+            "target": "Flor de sal"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Sal",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Sal",
+            "target": "Alecrim"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Sal",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Sal",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Sal",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Sal",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Sal",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Sal",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Sal",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Sal",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Sal",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Sal",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Sal",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Sal",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Sal",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "MSG",
+            "target": "Flor de sal"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "MSG",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "MSG",
+            "target": "Alecrim"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "MSG",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "MSG",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "MSG",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "MSG",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "MSG",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "MSG",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "MSG",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "MSG",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "MSG",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "MSG",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "MSG",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "MSG",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "MSG",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Flor de sal",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Flor de sal",
+            "target": "Alecrim"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Flor de sal",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Flor de sal",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Flor de sal",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Flor de sal",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Flor de sal",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Flor de sal",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Flor de sal",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Flor de sal",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Flor de sal",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Flor de sal",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Flor de sal",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Flor de sal",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Flor de sal",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Cominho",
+            "target": "Alecrim"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Cominho",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Cominho",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Cominho",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Cominho",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Cominho",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Cominho",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Cominho",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Cominho",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Cominho",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Cominho",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Cominho",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Cominho",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Cominho",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alecrim",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alecrim",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alecrim",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alecrim",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Alecrim",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alecrim",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alecrim",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Alecrim",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alecrim",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alecrim",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Alecrim",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Alecrim",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Alecrim",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Or\u00e9gano",
+            "target": "Manjeric\u00e3o"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Or\u00e9gano",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Or\u00e9gano",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Or\u00e9gano",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Or\u00e9gano",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Or\u00e9gano",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Or\u00e9gano",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Or\u00e9gano",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Or\u00e9gano",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Or\u00e9gano",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Or\u00e9gano",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Or\u00e9gano",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Manjeric\u00e3o",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Manjeric\u00e3o",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Manjeric\u00e3o",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Manjeric\u00e3o",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Manjeric\u00e3o",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Manjeric\u00e3o",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Manjeric\u00e3o",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Manjeric\u00e3o",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Manjeric\u00e3o",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Manjeric\u00e3o",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Manjeric\u00e3o",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Louro",
+            "target": "Cravo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Louro",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Louro",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Louro",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Louro",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Louro",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Louro",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Louro",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Louro",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Louro",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Cravo",
+            "target": "Erva doce"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Cravo",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Cravo",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Cravo",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Cravo",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Cravo",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Cravo",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Cravo",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Cravo",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Erva doce",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Erva doce",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Erva doce",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Erva doce",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Erva doce",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Erva doce",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Erva doce",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Erva doce",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "S\u00e1lvia",
+            "target": "Coentro"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "S\u00e1lvia",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "S\u00e1lvia",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "S\u00e1lvia",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "S\u00e1lvia",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "S\u00e1lvia",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "S\u00e1lvia",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Coentro",
+            "target": "Pimenta calabresa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Coentro",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Coentro",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Coentro",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Coentro",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Coentro",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta calabresa",
+            "target": "Gengibre"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta calabresa",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Pimenta calabresa",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Pimenta calabresa",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9629629629629632,
+            "source": "Pimenta calabresa",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Gengibre",
+            "target": "Cardamomo"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Gengibre",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Gengibre",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Gengibre",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9615384615384615,
+            "source": "Cardamomo",
+            "target": "Baunilha"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Cardamomo",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Cardamomo",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Baunilha",
+            "target": "Anis estrelado"
+        },
+        {
+            "weight": 0.9435641951204967,
+            "source": "Baunilha",
+            "target": "Pimenta rosa"
+        },
+        {
+            "weight": 0.9259259259259263,
+            "source": "Anis estrelado",
+            "target": "Pimenta rosa"
+        }
+    ]
+}

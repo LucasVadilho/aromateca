@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Computer Modern Serif", serif;
+    background: #f4f1e8;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 16px;
+}
+
+/* APP */
+
+.app {
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* GENERIC PANELS */
+
+.header,
+.gallery,
+.graph-panel,
+.info-panel {
+    background: #fff;
+    border: 2px solid #222;
+    padding: 16px;
+}
+
+/* HEADER */
+
+.header {
+    flex: 0 0 auto;
+}
+
+/* GALLERY */
+
+.gallery {
+    flex: 0 0 auto;
+}
+
+.gallery-content {
+    margin-top: 12px;
+    min-height: 80px;
+    border: 1px dashed #999;
+}
+
+/* MAIN CONTENT */
+
+.main-content {
+    flex: 1;
+
+    display: flex;
+    gap: 16px;
+
+    min-height: 0;
+}
+
+/* GRAPH */
+
+.graph-panel {
+    flex: 7;
+
+    display: flex;
+    flex-direction: column;
+
+    min-width: 0;
+    min-height: 0;
+}
+
+/* INFO */
+
+.info-panel {
+    flex: 3;
+
+    display: flex;
+    flex-direction: column;
+
+    min-width: 0;
+    min-height: 0;
+}
+
+/* INNER CONTENT */
+
+.info-content,
+#graph {
+    margin-top: 12px;
+
+    flex: 1;
+
+    border: 1px dashed #999;
+
+    min-width: 0;
+    min-height: 0;
+}
+
+/* D3 SVG CONTAINER */
+
+#graph {
+    width: 100%;
+    overflow: hidden;
+}
+
+#tooltip {
+    display: none;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .graph-panel,
+    .info-panel {
+        flex: 1;
+    }
+}
+
+.link {
+    stroke: rgb(255, 2, 2);
+}
+
+#gallery_list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.gallery_item {
+    width: 10%;
+    height: 100%;
+}
+
+.gallery_item img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    display: block;    
+}
+
+.gallery_item span {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+̣/* Info box */
+.info_content {
+    display: flex;
+}
+
+.info_prop {
+    font-weight: bold;
+    display: block;
+    width: 100%;
+}

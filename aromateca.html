@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aromateca Digital</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/bitmaks/cm-web-fonts@latest/fonts.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="graph.js" defer></script>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <h1>Aromateca Digital</h1>
+        </header>
+
+        <section class="gallery splide">
+            <h2>Galeria de itens</h2>
+            <div id="gallery" class="splide__track gallery_container">
+                <ul id="gallery_list" class="splide__list">
+                </ul>
+            </div>
+        </section>
+
+        <main class="main-content">
+            <section class="graph-panel">
+                <h2>Conexões</h2>
+
+                <div class="controls">
+                    <div class="control-group">
+                        <label>Aresta</label>
+                        <select id="edgeSelector"></select>
+                    </div>
+
+                    <div class="control-group">
+                        <label>Nó</label>
+                        <select id="sizeSelector"></select>
+                    </div>
+                </div>
+
+                <div id="graph">
+                    <!-- d3 graph goes here -->
+                </div>
+
+                <div class="tooltip" id="tooltip"></div>
+            </section>
+
+            <aside class="info-panel">
+                <h2>Informações</h2>
+                <div class="info_content">
+                    <div id="info_imgs"></div>
+
+                    <span class="info_prop">Nome científico:</span><span id="cientific_name"></span>
+                    <span class="info_prop">Origem:</span><span id="origin"></span>
+                    <span class="info_prop">Outros nomes:</span><span id="other_names"></span>
+                    <span class="info_prop">Características sensoriais:</span><span id="sensory_characteristics"></span>
+                    <span class="info_prop">Preço:</span><span id="price"></span>
+                    <span class="info_prop">Aplicabilidade gastrônomica:</span><span id="gastronomic_applications"></span>
+                </div>
+            </aside>
+        </main>
+    </div>
+</body>
+
+</html>
