@@ -133,6 +133,7 @@ h2 {
 
 .gallery_container {
     margin-top: 8px;
+    padding-top: 10px;
 }
 
 .gallery_item {
@@ -140,7 +141,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    transition: transform 0.2s ease;
+    padding-top: 8px;
 }
 
 .gallery_item img {
@@ -151,19 +152,20 @@ h2 {
     display: block;
     border: 2px solid var(--panel-border);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
-    transition: box-shadow 0.25s ease, border-color 0.25s ease;
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.25s ease,
+        border-color 0.25s ease;
 }
 
-.gallery_item:hover {
+.gallery_item:hover img {
     transform: translateY(-2px);
-}
-
-.gallery_item img:hover {
     border-color: var(--accent-gold);
     box-shadow: 0 0 20px rgba(196, 165, 116, 0.45);
 }
 
 .gallery_item--selected img {
+    transform: translateY(-2px);
     border-color: var(--accent-lavender);
     box-shadow:
         0 0 0 3px rgba(154, 138, 184, 0.35),
@@ -346,14 +348,22 @@ select option {
     filter: drop-shadow(0 0 8px rgba(154, 138, 184, 0.55));
 }
 
-/* Tooltip */
+/* Tooltip (SVG foreignObject inside zoom group) */
 
-#tooltip {
-    position: fixed;
+.tooltip-layer--hidden {
     opacity: 0;
-    pointer-events: none;
-    z-index: 1000;
-    padding: 10px 14px;
+    visibility: hidden;
+}
+
+.tooltip-layer {
+    transition: opacity 0.15s ease, visibility 0.15s ease;
+}
+
+.tooltip-fo {
+    overflow: visible;
+}
+
+.graph-tooltip {
     background: var(--panel-bg);
     border: 1px solid var(--panel-border);
     border-radius: 10px;
@@ -362,13 +372,44 @@ select option {
     -webkit-backdrop-filter: blur(10px);
     color: var(--text-primary);
     font-size: 0.95rem;
-    transition: opacity 0.15s ease;
 }
 
-#tooltip strong {
+.graph-tooltip .tooltip__inner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    min-width: 200px;
+    max-width: 280px;
+}
+
+.graph-tooltip .tooltip__img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+    background: rgba(8, 14, 10, 0.5);
+}
+
+.graph-tooltip .tooltip__body {
+    min-width: 0;
+}
+
+.graph-tooltip .tooltip__id {
     font-family: var(--font-display);
     font-weight: 600;
-    color: var(--accent-gold);
+    color: var(--text-primary);
+    line-height: 1.3;
+}
+
+.graph-tooltip .tooltip__scientific {
+    font-family: var(--font-display);
+    font-style: italic;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    line-height: 1.35;
+    margin-top: 2px;
 }
 
 /* Info box */

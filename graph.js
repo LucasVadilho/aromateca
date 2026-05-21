@@ -23,8 +23,101 @@ const svg = d3
     .select("#graph")
     .append("svg");
 
-const tooltip = document.getElementById("tooltip");
 const galleryList = document.getElementById("gallery_list");
+
+let tooltipPinnedNodeId = null;
+let tooltipHoverNodeId = null;
+let currentRadiusScale = null;
+let tooltipLayer = null;
+let tooltipContentEl = null;
+
+const TOOLTIP_FO_WIDTH = 280;
+const TOOLTIP_FO_HEIGHT = 72;
+
+function fillTooltipContent(d) {
+    if (!tooltipContentEl) return;
+
+    tooltipContentEl.replaceChildren();
+
+    const inner = document.createElement("div");
+    inner.className = "tooltip__inner";
+
+    const img = document.createElement("img");
+    img.className = "tooltip__img";
+    img.src = d.images?.[0] ?? "";
+    img.alt = d.id ?? "";
+    img.loading = "lazy";
+
+    const body = document.createElement("div");
+    body.className = "tooltip__body";
+
+    const idEl = document.createElement("div");
+    idEl.className = "tooltip__id";
+    idEl.textContent = d.id ?? "";
+
+    const scientific = document.createElement("div");
+    scientific.className = "tooltip__scientific";
+    scientific.textContent = d.scientific_name ?? "";
+
+    body.append(idEl, scientific);
+    inner.append(img, body);
+    tooltipContentEl.appendChild(inner);
+}
+
+function getActiveTooltipNodeId() {
+    return tooltipHoverNodeId ?? tooltipPinnedNodeId;
+}
+
+function isTooltipVisible() {
+    return tooltipLayer && !tooltipLayer.classed("tooltip-layer--hidden");
+}
+
+function positionTooltip(d) {
+    if (!tooltipLayer || !d || d.x == null || d.y == null || !currentRadiusScale) return;
+
+    const r = currentRadiusScale(d[currentSizeField] || 1) || 8;
+    const gap = 12;
+
+    tooltipLayer.attr(
+        "transform",
+        `translate(${d.x + r + gap}, ${d.y - TOOLTIP_FO_HEIGHT / 2})`
+    );
+}
+
+function showTooltip(d) {
+    if (!d || !tooltipLayer) return;
+    fillTooltipContent(d);
+    positionTooltip(d);
+    tooltipLayer.classed("tooltip-layer--hidden", false);
+}
+
+function hideTooltip() {
+    if (!tooltipLayer) return;
+    tooltipLayer.classed("tooltip-layer--hidden", true);
+}
+
+function refreshTooltipPosition() {
+    const nodeId = getActiveTooltipNodeId();
+    if (!nodeId || !isTooltipVisible()) return;
+    const node = getSimulationNode(nodeId);
+    if (node) positionTooltip(node);
+}
+
+function clearTooltipHover() {
+    tooltipHoverNodeId = null;
+    if (tooltipPinnedNodeId) {
+        const pinned = getSimulationNode(tooltipPinnedNodeId);
+        if (pinned) showTooltip(pinned);
+        else hideTooltip();
+    } else {
+        hideTooltip();
+    }
+}
+
+svg.on("click", () => {
+    tooltipPinnedNodeId = null;
+    hideTooltip();
+});
 
 function updateGraphDimensions() {
     const size = getGraphSize();
@@ -221,6 +314,8 @@ function renderGraph(edgeField, sizeField) {
         .domain(d3.extent(nodes, d => d[sizeField] || 1))
         .range([8, 36]);
 
+    currentRadiusScale = radiusScale;
+
     simulation = d3.forceSimulation(nodes)
         .alphaDecay(0)
         .force("link",
@@ -257,19 +352,21 @@ function renderGraph(edgeField, sizeField) {
         .join("circle")
         .attr("class", "node")
         .attr("r", d => radiusScale(d[sizeField] || 1))
-        .on("click", (_, d) => selectNode(d))
-        .on("mousemove", (event, d) => {
-            tooltip.style.opacity = 1;
-            tooltip.style.left = event.pageX + 16 + "px";
-            tooltip.style.top = event.pageY + 16 + "px";
-
-            tooltip.innerHTML = `
-            <strong>${d.name || d.id}</strong>
-          `;
-        //   TODO: make pretty
+        .on("click", (event, d) => {
+            event.stopPropagation();
+            tooltipPinnedNodeId = d.id;
+            tooltipHoverNodeId = d.id;
+            showTooltip(d);
+            selectNode(d);
         })
-        .on("mouseleave", () => {
-            tooltip.style.opacity = 0;
+        .on("pointerenter", (_, d) => {
+            tooltipHoverNodeId = d.id;
+            showTooltip(d);
+        })
+        .on("pointerleave", () => {
+            if (tooltipPinnedNodeId && tooltipHoverNodeId === tooltipPinnedNodeId) return;
+            tooltipHoverNodeId = null;
+            clearTooltipHover();
         })
         .call(
             d3.drag()
@@ -279,6 +376,20 @@ function renderGraph(edgeField, sizeField) {
         );
 
     graphNodeSelection = node;
+
+    tooltipLayer = zoomGroup.append("g")
+        .attr("class", "tooltip-layer tooltip-layer--hidden")
+        .style("pointer-events", "none");
+
+    tooltipLayer.append("foreignObject")
+        .attr("class", "tooltip-fo")
+        .attr("width", TOOLTIP_FO_WIDTH)
+        .attr("height", TOOLTIP_FO_HEIGHT)
+        .append("xhtml:div")
+        .attr("class", "graph-tooltip")
+        .each(function () {
+            tooltipContentEl = this;
+        });
 
     if (selectedNodeId) {
         node.classed("selected", d => d.id === selectedNodeId);
@@ -305,7 +416,13 @@ function renderGraph(edgeField, sizeField) {
             .attr("cx", d => d.x)
             .attr("cy", d => d.y);
 
+        refreshTooltipPosition();
     });
+
+    if (tooltipPinnedNodeId) {
+        const pinned = nodes.find(n => n.id === tooltipPinnedNodeId);
+        if (pinned) showTooltip(pinned);
+    }
 
     function dragstarted(event, d) {
         if (!event.active) simulation.alphaTarget(0.3).restart();
