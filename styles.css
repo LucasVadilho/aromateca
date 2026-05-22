@@ -29,6 +29,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent-gold) var(--panel-bg);
 }
 
 html,
@@ -221,6 +224,8 @@ h2 {
 
     min-width: 0;
     min-height: 0;
+
+    gap: 10px;
 }
 
 .graph-panel h2 {
@@ -231,14 +236,14 @@ h2 {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    margin-bottom: 16px;
     flex-shrink: 0;
 }
 
 .control-group {
     display: flex;
-    flex-direction: column;
-    gap: 8px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
 
 .control-group label {
@@ -253,7 +258,7 @@ select {
     background: rgba(12, 18, 14, 0.65);
     border: 1px solid var(--panel-border);
     color: var(--text-primary);
-    padding: 11px 16px;
+    padding: 4px 10px;
     border-radius: var(--radius-control);
     outline: none;
     min-width: 200px;
@@ -288,7 +293,7 @@ select option {
     flex-shrink: 0;
 }
 
-#price::after{
+#price::after {
     content: " R$/kg";
     font-size: 0.85rem;
     color: var(--text-muted);
@@ -414,26 +419,43 @@ select option {
 
 /* Info box */
 
-.info-panel h2 {
-    margin-bottom: 6px;
+.info_header {
+    text-align: center;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
 }
 
 .info_subtitle {
     font-family: var(--font-display);
-    font-size: 1.35rem;
-    font-style: italic;
+    font-size: 1.8rem;
+    font-weight: 600;
     text-align: center;
     color: var(--text-primary);
-    min-height: 1.6em;
-    margin: 0 0 14px;
+    margin: 0;
     opacity: 0.92;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
     text-shadow:
         0 0 24px rgba(196, 165, 116, 0.45),
         0 0 48px rgba(154, 138, 184, 0.25);
 }
 
-.info_subtitle.reveal {
+.cientific_name {
+    font-family: var(--font-display);
+    font-size: 0.98rem;
+    font-style: italic;
+    color: var(--accent-gold);
+    margin: 0;
+    text-align: center;
+    opacity: 0.85;
+}
+
+.info_subtitle.reveal,
+.cientific_name.reveal {
     animation: subtitleReveal 1s ease forwards;
 }
 
@@ -446,6 +468,7 @@ select option {
             0 0 6px rgba(196, 165, 116, 0.1),
             0 0 12px rgba(154, 138, 184, 0.05);
     }
+
     55% {
         opacity: 1;
         transform: translateY(0) scale(1.03);
@@ -454,6 +477,7 @@ select option {
             0 0 36px rgba(196, 165, 116, 0.7),
             0 0 64px rgba(154, 138, 184, 0.45);
     }
+
     100% {
         opacity: 0.92;
         transform: translateY(0) scale(1);
@@ -464,11 +488,55 @@ select option {
     }
 }
 
-.sabor_tags {
+.info_content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    margin-top: 4px;
+    padding-right: 4px;
+}
+
+#info_imgs {
+    margin-bottom: 12px;
+}
+
+.info_grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.85rem 1.25rem;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.info_prop {
+    font-weight: 600;
+    color: var(--text-muted);
+    font-size: 0.92rem;
+    text-align: right;
+    justify-self: end;
+    align-self: start;
+    padding-top: 3px;
+}
+
+.info_val {
+    color: var(--text-primary);
+    line-height: 1.5;
+    font-size: 0.98rem;
+    align-self: center;
+}
+
+.info_val.sabor_tags,
+.info_val.aroma_tags {
+    align-self: start;
+}
+
+.sabor_tags,
+.aroma_tags {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
-    align-items: center;
 }
 
 .flavor_tag {
@@ -479,46 +547,85 @@ select option {
     font-weight: 500;
     letter-spacing: 0.04em;
     color: var(--accent-gold);
-    background: rgba(154, 138, 184, 0.18);
+    background: rgba(196, 165, 116, 0.12);
     border: 1px solid rgba(196, 165, 116, 0.35);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    transition: all 0.2s ease;
 }
 
-.info_content {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 0.65rem 1.25rem;
-    align-content: start;
-    flex: 1;
-    min-height: 0;
-    overflow-y: auto;
-    margin-top: 4px;
-    padding-right: 4px;
+.flavor_tag:hover {
+    background: rgba(196, 165, 116, 0.22);
+    border-color: var(--accent-gold);
 }
 
-#info_imgs {
-    grid-column: 1 / -1;
+.aroma_tag {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--accent-lavender);
+    background: rgba(154, 138, 184, 0.12);
+    border: 1px solid rgba(154, 138, 184, 0.35);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    transition: all 0.2s ease;
 }
 
-.info_prop {
+.aroma_tag:hover {
+    background: rgba(154, 138, 184, 0.22);
+    border-color: var(--accent-lavender);
+}
+
+hr {
+    --bg-color: transparent;
+    --a-color: var(--panel-border);
+    width: 90%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, var(--bg-color), var(--a-color), var(--bg-color));
+    margin: 14px auto 16px;
+}
+
+.description_text {
+    font-size: 0.98rem;
+    line-height: 1.6;
+    color: var(--text-muted);
+    text-align: justify;
+}
+
+.info_tags_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 14px;
+    margin-top: 14px;
+    flex-shrink: 0;
+}
+
+.info_tags_footer.reveal {
+    animation: contentReveal 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.tags_row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.tags_label {
     font-weight: 600;
     color: var(--text-muted);
-    font-size: 0.92rem;
-}
-
-.info_content > span:not(.info_prop) {
-    color: var(--text-primary);
-    line-height: 1.55;
-    font-size: 0.98rem;
-}
-
-.info_content .sabor_tags {
-    align-self: start;
+    font-size: 0.88rem;
+    width: 50px;
+    text-align: right;
+    flex-shrink: 0;
 }
 
 /* MOBILE */
 
 @media (max-width: 768px) {
+
     html,
     body {
         height: auto;

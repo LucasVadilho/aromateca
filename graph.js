@@ -231,7 +231,9 @@ let buildGalery = () => {
 
     galleryList.addEventListener("click", (event) => {
         const item = event.target.closest(".gallery_item");
+
         if (!item?.dataset.nodeId) return;
+
         const node = getNodeById(item.dataset.nodeId);
         if (node) selectNode(node, { focusGraph: true });
     });
@@ -317,7 +319,6 @@ function renderGraph(edgeField, sizeField) {
     currentRadiusScale = radiusScale;
 
     simulation = d3.forceSimulation(nodes)
-        .alphaDecay(0)
         .force("link",
             d3.forceLink(links)
                 .id(d => d.id)
@@ -325,7 +326,7 @@ function renderGraph(edgeField, sizeField) {
         )
         .force("charge", d3.forceManyBody().strength(-240))
         .force("center", d3.forceCenter(width / 2, height / 2));
-        
+
     zoomGroup = svg.append("g");
     simulationNodes = nodes;
 
@@ -336,7 +337,7 @@ function renderGraph(edgeField, sizeField) {
         });
 
     svg.call(zoomBehavior);
-    
+
     let initialTransform = d3.zoomIdentity.scale(0.8);
     svg.call(zoomBehavior.transform, initialTransform);
 
@@ -397,11 +398,11 @@ function renderGraph(edgeField, sizeField) {
 
     simulation.on("tick", () => {
         nodes.forEach(d => {
-            const r = radiusScale(d[sizeField] || 1) || 8; 
-            
+            const r = radiusScale(d[sizeField] || 1) || 8;
+
             if (d.x < r) { d.x = r; d.vx *= -1; }
             if (d.x > width - r) { d.x = width - r; d.vx *= -1; }
-            
+
             if (d.y < r) { d.y = r; d.vy *= -1; }
             if (d.y > height - r) { d.y = height - r; d.vy *= -1; }
         });
@@ -476,7 +477,6 @@ function focusNodeOnGraph(nodeId) {
 }
 
 function selectNode(nodeData, { focusGraph = false } = {}) {
-    console.log(nodeData);
     if (!nodeData) return;
 
     selectedNodeId = nodeData.id;
@@ -498,6 +498,13 @@ function selectNode(nodeData, { focusGraph = false } = {}) {
     }
 
     updateInfoBox(nodeData);
+
+    tooltipPinnedNodeId = nodeData.id;
+    tooltipHoverNodeId = nodeData.id;
+    const simNode = getSimulationNode(nodeData.id);
+    if (simNode) {
+        showTooltip(simNode);
+    }
 
     if (focusGraph) {
         focusNodeOnGraph(selectedNodeId);
@@ -525,30 +532,99 @@ function renderSaborTags(sabor) {
     });
 }
 
-function updateInfoSubtitle(id) {
+function renderAromaTags(aroma) {
+    const container = document.getElementById("aroma_tags");
+    container.replaceChildren();
+
+    const aromas = Array.isArray(aroma)
+        ? aroma
+        : aroma
+            ? [aroma]
+            : [];
+
+    aromas.forEach(value => {
+        const text = String(value).trim();
+        if (!text) return;
+
+        const tag = document.createElement("span");
+        tag.className = "aroma_tag";
+        tag.textContent = text;
+        container.appendChild(tag);
+    });
+}
+
+const aromaFallback = {
+    "Camomila": ["floral", "doce", "herbal"],
+    "Melissa": ["cítrico", "herbal", "fresco"],
+    "Campim limão": ["cítrico", "fresco", "herbal"],
+    "Noz moscada": ["quente", "amadeirado", "doce"],
+    "Canela": ["doce", "amadeirado", "quente"],
+    "Cúrcuma": ["terroso", "quente"],
+    "Pimenta preta": ["picante", "amadeirado"],
+    "Tomilho": ["herbal", "terroso"],
+    "Orange peper": ["frutado", "picante"],
+    "Páprica": ["defumado", "doce"],
+    "Alfavaca": ["doce", "herbal"],
+    "Hortelã grosso": ["mentolado", "forte"],
+    "Sal": ["mineral", "neutro"],
+    "MSG": ["neutro"],
+    "Flor de sal": ["mineral", "suave"]
+};
+
+function updateInfoSubtitle(id, scientificName) {
     const subtitle = document.getElementById("info_subtitle");
+    const sciName = document.getElementById("cientific_name");
+
     subtitle.classList.remove("reveal");
+    sciName.classList.remove("reveal");
+
     subtitle.textContent = id ?? "";
+    sciName.textContent = scientificName ?? "";
+
     void subtitle.offsetWidth;
+
     subtitle.classList.add("reveal");
+    sciName.classList.add("reveal");
 }
 
 let updateInfoBox = (e) => {
-    updateInfoSubtitle(e.id);
+    updateInfoSubtitle(e.id, e.scientific_name);
 
-    let scientificName = document.getElementById("cientific_name");
+    const content = document.querySelector(".info_content");
+    const footer = document.querySelector(".info_tags_footer");
+    if (content) {
+        content.classList.remove("reveal");
+    }
+    if (footer) {
+        footer.classList.remove("reveal");
+    }
+
     let origin = document.getElementById("origin");
     let otherNames = document.getElementById("other_names");
-    let sensoryCharacteristics = document.getElementById("sensory_characteristics");
     let price = document.getElementById("price");
     let gastronomicApplications = document.getElementById("gastronomic_applications");
+    let description = document.getElementById("description");
 
     renderSaborTags(e.sabor);
+    renderAromaTags(e.aroma || aromaFallback[e.id] || []);
 
-    scientificName.innerText = e.scientific_name ?? "";
     origin.innerText = e.origin ?? "";
     otherNames.innerText = e.other_names ?? "";
-    sensoryCharacteristics.innerText = e.sensory_characteristics ?? "";
-    price.innerText = e.price ?? "";
     gastronomicApplications.innerText = e.gastronomic_application ?? "";
+    description.innerText = e.description ?? "";
+
+    if (e.price != null && e.price !== "") {
+        price.innerText = typeof e.price === 'number' ? e.price.toFixed(2).replace('.', ',') : e.price;
+    } else {
+        price.innerText = "—";
+    }
+
+    if (content) {
+        void content.offsetWidth;
+        content.classList.add("reveal");
+    }
+    if (footer) {
+        void footer.offsetWidth;
+        footer.classList.add("reveal");
+    }
 }
