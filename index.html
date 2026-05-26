@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="styles.css?v=1.3" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/bitmaks/cm-web-fonts@latest/fonts.css">
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 
@@ -42,12 +43,12 @@
 
                 <div class="controls">
                     <div class="control-group">
-                        <label>Aresta</label>
+                        <label>Ligações</label>
                         <select id="edgeSelector"></select>
                     </div>
 
                     <div class="control-group">
-                        <label>Nó</label>
+                        <label>Tamanho do Nó</label>
                         <select id="sizeSelector"></select>
                     </div>
                 </div>
@@ -73,17 +74,21 @@
 
                         <span class="info_prop">Preço:</span>
                         <span id="price" class="info_val"></span>
+
+                        <span class="info_prop">Conservação:</span>
+                        <span id="conservation" class="info_val"></span>
                     </div>
 
                     <hr />
 
                     <p id="description" class="description_text"></p>
+                    <p id="curiosities" class="curiosities_text"></p>
                 </div>
 
                 <div class="info_tags_footer">
                     <div class="tags_row">
-                        <span class="tags_label">Sabor:</span>
-                        <div id="sabor_tags" class="sabor_tags"></div>
+                        <span class="tags_label">Tipo:</span>
+                        <div id="tipo_tag" class="tipo_tag"></div>
                     </div>
                     <div class="tags_row">
                         <span class="tags_label">Aroma:</span>

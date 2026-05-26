@@ -4,799 +4,4009 @@
     "graph": {},
     "nodes": [
         {
-            "scientific_name": "Matricaria chamomilla",
-            "other_names": "Marga\u00e7a, Camomila-vulgar",
-            "origin": "Europa e \u00c1sia",
-            "sabor": [
-                "Doce",
-                " Amargo"
+            "kind": "Especiaria",
+            "scientific_name": "Crocus sativus",
+            "sci_name_feat": [
+                "Crocus",
+                "sativus"
             ],
-            "description": "Flor pequena de aroma floral e herb\u00e1ceo.",
-            "gastronomic_application": "Ch\u00e1s infus\u00f5es caldos claros e sobremesas.",
-            "conservation": "Local fresco e ao abrigo da luz.",
-            "curiosities": "\u00c9 uma das ervas mais antigas documentadas para uso medicinal.",
-            "price": 80.00,
+            "other_names": "A\u00e7aflor, A\u00e7afr\u00e3o-da-\u00edndia, Flor de H\u00e9rcules, Saffron",
+            "origin": [
+                "Oeste da \u00c1sia"
+            ],
+            "scent": [
+                "Floral",
+                " Terroso",
+                " Doce",
+                " Picante"
+            ],
+            "description": "Os estigmas da flor s\u00e3o removidos num processo manual, no qual gerar 1g de a\u00e7afr\u00e3o requer aproximadamente 150 mil flores. Os filamentos vermelhos s\u00e3o usados diretamente e com modera\u00e7\u00e3o em infus\u00f5es, liberando sua cor, aromas e sabores.",
+            "gastronomic_application": "Risotos, paellas, molhos",
+            "application_feat": [
+                "Risotos",
+                " paellas",
+                " molhos"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "Uma das especiarias mais caras do mundo, ingrediente cl\u00e1ssico da paella espanhola",
+            "price": 200,
             "images": [
-            	"https://portaledicase.com/wp-content/uploads/2023/04/camomila-1024x683.jpg",
-                "https://cdn.awsli.com.br/2500x2500/1285/1285102/produto/53857013/ch--de-camomila-6p9hactt06.png"
+                "https://imagens.mdig.com.br/thbs/57845mn.jpg",
+                " https://static.itdg.com.br/images/auto-auto/41c5be2d31f5c6a239ac68ad3e7ac9da/acafrao-original.jpg",
+                " https://images.immediate.co.uk/production/volatile/sites/10/2018/08/bb6d140b-0a1d-4aef-b89a-e81f55cbba06-0d21bf7.jpg",
+                " https://i.herbalreality.com/wp-content/uploads/2022/05/21124107/saffron-Crocus-sativus-wooden-bowl-scaled-1300x867.jpg"
+            ],
+            "id": "A\u00e7afr\u00e3o"
+        },
+        {
+            "kind": "Erva arom\u00e1tica",
+            "scientific_name": "Rosmarinus officinalis",
+            "sci_name_feat": [
+                "Rosmarinus",
+                "officinalis"
+            ],
+            "other_names": "Rosmarinho, Erva-da-gra\u00e7a, Libanotis, Rosemary",
+            "origin": [
+                "Europa Meridional"
+            ],
+            "scent": [
+                "Intenso",
+                " Amadeirado",
+                " Refrescante"
+            ],
+            "description": "As folhas, pequenas, verdes e em formato de agulha, s\u00e3o colhidas dos ramos, seu potencial pode ser extra\u00eddo fresco, mas o alecrim tamb\u00e9m pode ser desidratado para estender sua estabilidade. Seja fresco ou desidratado, o alecrim \u00e9 resistente a preparos longos e altas temperaturas. ",
+            "gastronomic_application": "Carnes, aves, batatas, focaccias, molhos",
+            "application_feat": [
+                "Carnes",
+                " aves",
+                " batatas",
+                " focaccias",
+                " molhos"
+            ],
+            "conservation": [
+                "Fresco: ramos limpos e enrolados em uma toalha umedecida",
+                " fechado",
+                " dentro da geladeira",
+                "\nDesdratado: local seco e fechado"
+            ],
+            "curiosities": "Diz a lenda que recuperou a sa\u00fade da debilitada rainha Isabel da Hungria: \"A receita da \u00e1gua da juventude est\u00e1 ao alcance de todos. Para obt\u00ea-la, basta juntar e misturar os alcoolatos de alfazema, tomilho e alecrim\"",
+            "price": 20,
+            "images": [
+                "https://i.metroimg.com/Mf8ymHu8NxOfzcRA5MmbqvXrEPc_0MmVOXWaqtogaGo/w:900/q:85/f:webp/plain/https://images.metroimg.com/2025/09/26165512/alecrim-materia.jpg",
+                " https://blog.plantei.com.br/wp-content/uploads/2018/02/Alecrim.jpg",
+                " https://33443.cdn.simplo7.net/static/33443/sku/chas.html-alecrim--p-1679679959826.jpg",
+                " https://s2.glbimg.com/LkSJUy6wjjXc8Q02kIQMW3WzFNE=/e.glbimg.com/og/ed/f/original/2016/07/13/thinkstock---alecrim.jpg"
+            ],
+            "id": "Alecrim"
+        },
+        {
+            "kind": "Erva arom\u00e1tica",
+            "scientific_name": "Ocimun gratissimun",
+            "sci_name_feat": [
+                "Ocimun",
+                "gratissimun"
+            ],
+            "other_names": "Manjeric\u00e3o cravo, manjeric\u00e3o cheiroso",
+            "origin": [
+                "Norte da \u00c1frica",
+                " Sul da \u00c1sia"
+            ],
+            "scent": [
+                "Herbal",
+                " Fresco"
+            ],
+            "description": "O arbusto possu\u00ed folhas verde claras e flores brancas. As folhas da planta podem ser usadas frescas ou desidratadas.",
+            "gastronomic_application": "Moquecas, cozidos",
+            "application_feat": [
+                "Moquecas",
+                " cozidos"
+            ],
+            "conservation": [
+                "Fresco: ramos limpos e enrolados em uma toalha umedecida",
+                " fechado",
+                " dentro da geladeira",
+                "Desdratado: local seco e fechado"
+            ],
+            "curiosities": "Erva sagrada essencial no Candombl\u00e9 e Umbanda.",
+            "price": 45,
+            "images": [
+                "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/MGX6N3X3MJDZJN2O2O6JESGQ2Q.jpeg?smart=true&auth=88fed58115b6338ff78dfef4a81fbfe9f74de1b555a6998fd75f2c074c185332&width=1200&height=630"
+            ],
+            "id": "Alfavaca"
+        },
+        {
+            "kind": "Condimento",
+            "scientific_name": "Allium sativum",
+            "sci_name_feat": [
+                "Allium",
+                "sativum"
+            ],
+            "other_names": "Alho desidratado",
+            "origin": [
+                "\u00c1sia Central",
+                " Oeste da \u00c1sia",
+                " Norte da \u00c1frica"
+            ],
+            "scent": [
+                "Doce",
+                " Quente",
+                " Sulforoso"
+            ],
+            "description": "Obtido via desidrata\u00e7\u00e3o e moagem do alho fresco.",
+            "gastronomic_application": "Carnes, aves, molhos",
+            "application_feat": [
+                "Carnes",
+                " aves",
+                " molhos"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "Um dente de alho \u00e9 reduzido, ou seja, equivalente, \u00e0 1/8 de colher de ch\u00e1 de alho em p\u00f3.",
+            "price": 25,
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY5l6w885izdZa-tlHnxnfBU5vuWoWk-2qig&s"
+            ],
+            "id": "Alho em P\u00f3"
+        },
+        {
+            "kind": "Erva arom\u00e1tica",
+            "scientific_name": "Schinus terebinthifolia",
+            "sci_name_feat": [
+                "Schinus",
+                "terebinthifolia"
+            ],
+            "other_names": "Pimenta rosa",
+            "origin": [
+                "Am\u00e9rica do Sul",
+                " Sudeste Asi\u00e1tico"
+            ],
+            "scent": [
+                "Doce",
+                " Amadeirado",
+                " Picante"
+            ],
+            "description": "\u00c1rvore de pequeno porte, da mesma fam\u00edlia da Manga e do Pistache, a Aroeira floresce na primavera e seus frutos envermelhecem ao amadurecer.",
+            "gastronomic_application": "Carnes, saladas, defuma\u00e7\u00f5es, infus\u00f5es, banhos",
+            "application_feat": [
+                "Carnes",
+                " saladas",
+                " defuma\u00e7\u00f5es",
+                " infus\u00f5es",
+                " banhos"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "Seus frutos s\u00e3o a origem da pimenta-rosa.",
+            "price": 80,
+            "images": [
+                "https://content.paodeacucar.com/wp-content/uploads/2025/07/pimenta-rosa-receitas.jpg"
+            ],
+            "id": "Aroeira"
+        },
+        {
+            "kind": "Especiaria",
+            "scientific_name": "Theobroma cacao",
+            "sci_name_feat": [
+                "Theobroma",
+                "cacao"
+            ],
+            "other_names": "-",
+            "origin": [
+                "Am\u00e9rica do Sul"
+            ],
+            "scent": [
+                "Achocolatado",
+                " Frutado",
+                " Terroso"
+            ],
+            "description": "Obtido da moagem das am\u00eandoas do Cacau, desengordurada (sem a manteiga) e sem a adi\u00e7\u00e3o de a\u00e7\u00facar ou outros aditivos.",
+            "gastronomic_application": "Bebidas, sobremesas",
+            "application_feat": [
+                "Bebidas",
+                " sobremesas"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "O Cacau em p\u00f3 \u00e9 apenas amargo, 100% cacau. Se tiver a\u00e7\u00facar em sua mistura passa a ser chamado de chocolate em p\u00f3. Se tiver outros aditivos \u00e9 chamado de achocolatado.",
+            "price": 40,
+            "images": [
+                "https://hortodegaia.com.br/wp-content/uploads/2022/04/cacau-po-alcalino-tiny.webp"
+            ],
+            "id": "Cacau"
+        },
+        {
+            "kind": "Erva arom\u00e1tica",
+            "scientific_name": "Matricaria chamomila",
+            "sci_name_feat": [
+                "Matricaria",
+                "chamomila"
+            ],
+            "other_names": "Matric\u00e1ria, Macela",
+            "origin": [
+                "Oeste da \u00c1sia",
+                " Europa Oriental"
+            ],
+            "scent": [
+                "Floral",
+                " Doce",
+                " Herbal"
+            ],
+            "description": "Erva de folhas finas e recortadas, sua flor tem um miolo amarela e p\u00e9talas brancas.",
+            "gastronomic_application": "Infus\u00f5es, sobremesas, xaropes, aromatiza\u00e7\u00e3o",
+            "application_feat": [
+                "Infus\u00f5es",
+                " sobremesas",
+                " xaropes",
+                " aromatiza\u00e7\u00e3o"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "Camomila, \u03c7\u03b1\u03bc\u03b1\u03af\u03bc\u03b7\u03bb\u03bf\u03bd, do Grego, significa Ma\u00e7\u00e3 da Terra, devido seu aroma doce e floral.",
+            "price": 27,
+            "images": [
+                "https://hortomedicinal.paginas.ufsc.br/files/2020/01/CAMOMILA.jpg"
             ],
             "id": "Camomila"
         },
         {
-            "scientific_name": "Melissa officinalis",
-            "other_names": "Erva-cidreira",
-            "origin": "Oriente M\u00e9dio e Europa",
-            "sabor": [
-                "Doce",
-                " Azedo"
+            "kind": "Especiaria",
+            "scientific_name": "Cinnamomum verum",
+            "sci_name_feat": [
+                "Cinnamomum",
+                "verum"
             ],
-            "description": "Folhas verdes de bordas serrilhadas com forte aroma c\u00edtrico.",
-            "gastronomic_application": "Ch\u00e1s sucos sobremesas e finaliza\u00e7\u00e3o de pratos asi\u00e1ticos.",
-            "conservation": "Seca em pote herm\u00e9tico ou fresca na geladeira.",
-            "curiosities": "Seu nome deriva do grego para abelha pois suas flores atraem muitos polinizadores.",
-            "price": 60.00,
+            "other_names": "Caneleira, canela-do-Ceil\u00e3o, Cinnamon",
+            "origin": [
+                "Sul da \u00c1sia"
+            ],
+            "scent": [
+                "Doce",
+                " Amadeirado",
+                " Quente"
+            ],
+            "description": "Obtida da casca interna da \u00e1rvore, a canela apresenta um perfil sensorial aconchegante, doce e quente. Variando de delicado a intenso, dependendo da esp\u00e9cie. ",
+            "gastronomic_application": "Carnes, doces, bebidas",
+            "application_feat": [
+                "Carnes",
+                " doces",
+                " bebidas"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "Canela em p\u00f3 \u00e9 mais barto que canela em pau.",
+            "price": 30,
             "images": [
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3BwliOncgwoz00-o0ghD2hhuRP-bVbADwsa2pd3hON4FKLEvQxEDLhVZULSG040O8wDeY6dr5dBMlgOAQux2ChZ0RzvNX_uQybaHC9pQ&s=10",
+                "https://cdn.shopify.com/s/files/1/0568/0768/6207/files/propiedades-de-la-canela-1_1000x.jpg?v=1759136364"
+            ],
+            "id": "Canela"
+        },
+        {
+            "kind": "Erva arom\u00e1tica",
+            "scientific_name": "Cymbopogon citratus",
+            "sci_name_feat": [
+                "Cymbopogon",
+                "citratus"
+            ],
+            "other_names": "Capim-cidreira, Campim Santo, Ch\u00e1-de-estrada, Lemongrass",
+            "origin": [
+                "Oeste da \u00c1sia",
+                " Sul da \u00c1sia"
+            ],
+            "scent": [
+                "Herbal",
+                " C\u00edtrico",
+                " Fresco"
+            ],
+            "description": "O Capim Lim\u00e3o tem folhas longas, verdes e \u00e1speras. Seu cultivo tem forte aroma c\u00edtrico, dado a presen\u00e7a do citral como seu principal \u00f3leo essencial.",
+            "gastronomic_application": "Infus\u00f5es, peixes, culin\u00e1ria asi\u00e1tica",
+            "application_feat": [
+                "Infus\u00f5es",
+                " peixes",
+                " culin\u00e1ria asi\u00e1tica"
+            ],
+            "conservation": [
+                "Fresco: ramos limpos e enrolados em uma toalha umedecida",
+                " fechado",
+                " dentro da geladeira",
+                "Desdratado: local seco e fechado"
+            ],
+            "curiosities": "Suas folhas formam touceiras densas e cortantes, cuidado! ",
+            "price": 30,
+            "images": [
+                "https://hortodidatico.ufsc.br/files/2020/01/CAPIM-LIM%C3%83O1.jpg",
+                " https://files.agro20.com.br/uploads/2020/01/Capim-lim%C3%A3o-2-1024x576.jpg"
+            ],
+            "id": "Capim Lim\u00e3o"
+        },
+        {
+            "kind": "Condimento",
+            "scientific_name": "Allium cepa",
+            "sci_name_feat": [
+                "Allium",
+                "cepa"
+            ],
+            "other_names": "Cebola desidratada",
+            "origin": [
+                "\u00c1sia Central",
+                " \u00c1sia Oriental",
+                " Sul da \u00c1sia",
+                " Oeste da \u00c1sia"
+            ],
+            "scent": [
+                "Delicado",
+                " Doce"
+            ],
+            "description": "Obtido via desidrata\u00e7\u00e3o e moagem da cabola fresca.",
+            "gastronomic_application": "Sopas, molhos, carnes",
+            "application_feat": [
+                "Sopas",
+                " molhos",
+                " carnes"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "Uma cebola m\u00e9dia \u00e9 reduzida, ou seja, \u00e9 equivalente a 1 colher de cebola em p\u00f3.",
+            "price": 14,
+            "images": [
+                "https://static.itdg.com.br/images/640-auto/3a2c27104e40e0b178647cbe386dfc7f/cebo-baixa.jpg"
+            ],
+            "id": "Cebola em P\u00f3"
+        },
+        {
+            "kind": "Erva arom\u00e1tica",
+            "scientific_name": "Allium schoenoprasum",
+            "sci_name_feat": [
+                "Allium",
+                "schoenoprasum"
+            ],
+            "other_names": "-",
+            "origin": [
+                "Sul da \u00c1sia",
+                " Sudeste Asi\u00e1tico",
+                " \u00c1sia Central",
+                " Oeste da \u00c1sia",
+                " Europa Oriental"
+            ],
+            "scent": [
+                "Delicado",
+                " Sulforoso",
+                " Fresco"
+            ],
+            "description": "Erva que cresce em touceiras, com hastes verdes, finas e tubulares. ",
+            "gastronomic_application": "Sopas, omeletes, pat\u00eas, decora\u00e7\u00e3o",
+            "application_feat": [
+                "Sopas",
+                " omeletes",
+                " pat\u00eas",
+                " decora\u00e7\u00e3o"
+            ],
+            "conservation": [
+                "Fresco: ramos limpos e enrolados em uma toalha umedecida",
+                " fechado",
+                " dentro da geladeira",
+                "\nDesdratado: local seco e fechado"
+            ],
+            "curiosities": "\u00c9 poss\u00edvel colher e manter a planta viva:, corte apenas as hastes e aguarde o seu re-crescimento.",
+            "price": 24,
+            "images": [
+                "https://cdn.awsli.com.br/800x800/2772/2772039/produto/376306840/cebolinha-2-umif2awnzo.webp"
+            ],
+            "id": "Cebolinha"
+        },
+        {
+            "kind": "Erva arom\u00e1tica",
+            "scientific_name": "Eryngium foetidum",
+            "sci_name_feat": [
+                "Eryngium",
+                "foetidum"
+            ],
+            "other_names": "Chic\u00f3ria do Par\u00e1, Coentr\u00e3o",
+            "origin": [
+                "Am\u00e9rica Central",
+                " Am\u00e9rica do Sul",
+                " Sul da \u00c1sia"
+            ],
+            "scent": [
+                "Herbal",
+                " Intenso",
+                " C\u00edtrico"
+            ],
+            "description": "A erva possu\u00ed folhas verde escuras, longas e serrilhadas. Ele apresenta um aroma e sabor mais intensos e levemente c\u00edtricos que o coentro comum.",
+            "gastronomic_application": "Moquecas, cozidos",
+            "application_feat": [
+                "Moquecas",
+                " cozidos"
+            ],
+            "conservation": [
+                "Fresco: ramos limpos e enrolados em uma toalha umedecida",
+                " fechado",
+                " dentro da geladeira",
+                "Desdratado: local seco e fechado"
+            ],
+            "curiosities": "Suporta mais calor que o coentro comum.",
+            "price": 23,
+            "images": [
+                "https://http2.mlstatic.com/D_NQ_NP_759561-MLB91205807867_082025-O.webp"
+            ],
+            "id": "Coentro de peixe"
+        },
+        {
+            "kind": "Especiaria",
+            "scientific_name": "Cuminum cyminum",
+            "sci_name_feat": [
+                "Cuminum",
+                "cyminum"
+            ],
+            "other_names": "-",
+            "origin": [
+                "Oeste da \u00c1sia"
+            ],
+            "scent": [
+                "Quente",
+                " Terroso"
+            ],
+            "description": "Geralmente confundida com semente, o cominho \u00e9 na realidade o fruto da erva. Esse fruto, quando aquecido, libera seus \u00f3leos arom\u00e1ticos.",
+            "gastronomic_application": "Feij\u00e3o, carnes, pratos mexicanos",
+            "application_feat": [
+                "Feij\u00e3o",
+                " carnes",
+                " pratos mexicanos"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "Chegou a ser usado como moeda de troca na Inglaterra medieval.",
+            "price": 16,
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFiRrfXiyQ5iMqJPJxP1QAV7NOTPluM9JBMA&s"
+            ],
+            "id": "Cominho"
+        },
+        {
+            "kind": "Especiaria",
+            "scientific_name": "Curcuma longa",
+            "sci_name_feat": [
+                "Curcuma",
+                "longa"
+            ],
+            "other_names": "A\u00e7afr\u00e3o-da-terra",
+            "origin": [
+                "Sul da \u00c1sia"
+            ],
+            "scent": [
+                "Amadeirado",
+                " Quente",
+                " Terroso"
+            ],
+            "description": "Caracterizado por folhas longas e grandes rizomas subterr\u00e2neos laranja brilhante, oo C\u00farcuma \u00e9 o resultado dos rizomas fervidos, secos e mo\u00eddos at\u00e9 virarem um p\u00f3 fino e arom\u00e1tico.",
+            "gastronomic_application": "Marinadas, Caldos, Infus\u00f5es, Arroz",
+            "application_feat": [
+                "Marinadas",
+                " Caldos",
+                " Infus\u00f5es",
+                " Arroz"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "A raiz fresca pode ser usada tamb\u00e9m, ch\u00e1s, saladas, vinagretes!",
+            "price": 18,
+            "images": [
+                "https://cdn.sistemawbuy.com.br/arquivos/2be324da38526ac2f0c91d3dfb8211f5/produtos/66da4cda0f541/curcuma-raiz-66da4cda62489.png"
+            ],
+            "id": "C\u00farcuma"
+        },
+        {
+            "kind": "Condimento",
+            "scientific_name": "-",
+            "sci_name_feat": [
+                "-"
+            ],
+            "other_names": "Tempero indiano",
+            "origin": [
+                "Sul da \u00c1sia"
+            ],
+            "scent": [
+                "Picante",
+                " Terroso",
+                " Quente"
+            ],
+            "description": "O Curry se refere a uma infinidade de misturas. Cada regi\u00e3o, fam\u00edlia, indiv\u00edduo desenvolve seus pr\u00f3prios curries para diversos usos.",
+            "gastronomic_application": "Ensopados, culin\u00e1ria sul-asi\u00e1tica, arroz",
+            "application_feat": [
+                "Ensopados",
+                " culin\u00e1ria sul-asi\u00e1tica",
+                " arroz"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "O termo curry n\u00e3o existe na l\u00edngua original da \u00cdndia. No sul da \u00c1sia, refere-se genericamente a um ensopado ou molho.",
+            "price": 22,
+            "images": [
+                "https://http2.mlstatic.com/D_NQ_NP_983990-MLA99833135897_112025-O.webp"
+            ],
+            "id": "Curry"
+        },
+        {
+            "kind": "Especiaria",
+            "scientific_name": "Sesamum indicum",
+            "sci_name_feat": [
+                "Sesamum",
+                "indicum"
+            ],
+            "other_names": "S\u00e9samo",
+            "origin": [
+                "Sul da \u00c1sia"
+            ],
+            "scent": [
+                "Delicado",
+                " Oleoso",
+                " Amendoado"
+            ],
+            "description": "As sementes de Gergelim vem das vagens da planta, elas s\u00e3o ricas em \u00f3leos e prote\u00ednas, quando processadas, liberam seu aroma delicado e amendoado.",
+            "gastronomic_application": "Saladas, p\u00e3es, tahini, za'atar",
+            "application_feat": [
+                "Saladas",
+                " p\u00e3es",
+                " tahini",
+                " za'atar"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "A frase \"abra-te, s\u00e9samo!\" (\u200e\u0641\u062a\u062d \u064a\u0627 \u0633\u0645\u0633\u0645) vem da facilidade com que os frutos do Gergelim estouram quando maduros.",
+            "price": 26,
+            "images": [
+                "https://cdn.shopify.com/s/files/1/2171/5991/files/tipos_oleo_gergelim.jpg?v=1738853679"
+            ],
+            "id": "Gergelim"
+        },
+        {
+            "kind": "Erva arom\u00e1tica",
+            "scientific_name": "Plectranthus amboinicus",
+            "sci_name_feat": [
+                "Plectranthus",
+                "amboinicus"
+            ],
+            "other_names": "Malvarisco",
+            "origin": [
+                "\u00c1frica Oriental",
+                " \u00c1frica Meridional",
+                " Sudeste Asi\u00e1tico"
+            ],
+            "scent": [
+                "Resinoso",
+                " Fresco",
+                " Mentolado"
+            ],
+            "description": "A planta tem folhas grandes, espessas, suculentas e aveludadas, seu aroma \u00e9 muito refrescante.",
+            "gastronomic_application": "Carnes, cozidos, infus\u00f5es",
+            "application_feat": [
+                "Carnes",
+                " cozidos",
+                " infus\u00f5es"
+            ],
+            "conservation": [
+                "Fresco: ramos limpos e enrolados em uma toalha umedecida",
+                " fechado",
+                " dentro da geladeira",
+                "\nDesdratado: local seco e fechado"
+            ],
+            "curiosities": "Muito utilizado na cozinha \u00e1rabe",
+            "price": 35,
+            "images": [
+                "https://media.istockphoto.com/id/1148390670/pt/foto/plectranthus-amboinicus.jpg?s=612x612&w=0&k=20&c=ikAvn8JgcRFOkvQUhZhK2iVYvrDkG0xd_NfcJEA9r0s="
+            ],
+            "id": "Hortel\u00e3-Grosso"
+        },
+        {
+            "kind": "Erva arom\u00e1tica",
+            "scientific_name": "Talinum paniculatum",
+            "sci_name_feat": [
+                "Talinum",
+                "paniculatum"
+            ],
+            "other_names": "Erva-de-sangue",
+            "origin": [
+                "Am\u00e9rica Central",
+                " Am\u00e9rica do Sul"
+            ],
+            "scent": [
+                "Herbal",
+                " Delicado",
+                " Terroso"
+            ],
+            "description": "Erva de folhas longas e ovais, com textura suculenta que lembra o formato de uma l\u00edngua. Nascem espontaneamente em pastagens, beiras de estradas e terrenos baldios.",
+            "gastronomic_application": "Refogados, omeletes, sopas",
+            "application_feat": [
+                "Refogados",
+                " omeletes",
+                " sopas"
+            ],
+            "conservation": [
+                "Fresco: ramos limpos e enrolados em uma toalha umedecida",
+                " fechado",
+                " dentro da geladeira",
+                "Desdratado: local seco e fechado"
+            ],
+            "curiosities": "Suas sementes podem durar d\u00e9cadas em dorm\u00eancia.",
+            "price": 120,
+            "images": [
+                "https://http2.mlstatic.com/D_NQ_NP_911474-MLB41157043884_032020-O.webp"
+            ],
+            "id": "L\u00edngua de vaca"
+        },
+        {
+            "kind": "Erva arom\u00e1tica",
+            "scientific_name": "Laurus nobilis",
+            "sci_name_feat": [
+                "Laurus",
+                "nobilis"
+            ],
+            "other_names": "Loureiro-dos-poetas, Laurel",
+            "origin": [
+                "Europa Meridional"
+            ],
+            "scent": [
+                "Intenso",
+                " Amargo"
+            ],
+            "description": "\u00c1rvore de folhas verde-escuras, brilhantes e de textura firme. Na gastronomia, essas folhas s\u00e3o colhidas manualmente e desidratadas \u00e0 sombra, reduzindo a umidade e o amargor excessivo.",
+            "gastronomic_application": "Carnes, caldos, cozidos, feij\u00e3o",
+            "application_feat": [
+                "Carnes",
+                " caldos",
+                " cozidos",
+                " feij\u00e3o"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "Coroas de louro foram usadas como s\u00edmbolo de vit\u00f3ria.",
+            "price": 50,
+            "images": [
+                "https://static.itdg.com.br/images/1200-675/7d0de963c5346b3cc9adfd077eeeea11/para-que-serve-a-folha-de-louro.jpg"
+            ],
+            "id": "Louro"
+        },
+        {
+            "kind": "Erva arom\u00e1tica",
+            "scientific_name": "Melissa officinalis",
+            "sci_name_feat": [
+                "Melissa",
+                "officinalis"
+            ],
+            "other_names": "Erva-cidreira",
+            "origin": [
+                "\u00c1sia Oriental"
+            ],
+            "scent": [
+                "C\u00edtrico",
+                " Herbal",
+                " Doce"
+            ],
+            "description": "Originada de um arbusto pequeno de folhas ovais, aveludadas e serrilhadas, a Melissa se detaca pelo suave e refrescante aroma de lim\u00e3o de suas folhas.",
+            "gastronomic_application": "Infus\u00f5es, licores, calmantes",
+            "application_feat": [
+                "Infus\u00f5es",
+                " licores",
+                " calmantes"
+            ],
+            "conservation": [
+                "Fresco: ramos limpos e enrolados em uma toalha umedecida",
+                " fechado",
+                " dentro da geladeira",
+                "Desdratado: local seco e fechado"
+            ],
+            "curiosities": "Melissa, \u03bc\u03ad\u03bb\u03b9\u03c3\u03c3\u03b1, do Grego, significa abelha. Nome derivado por suas flores atrairem abelhas. Mel!",
+            "price": 80,
+            "images": [
                 "https://cdn.awsli.com.br/800x800/2772/2772039/produto/367710926/melissa-gubs6mw0mo.webp"
             ],
             "id": "Melissa"
         },
         {
-            "scientific_name": "Cymbopogon citratus",
-            "other_names": "Capim-santo, Erva-pr\u00edncipe",
-            "origin": "\u00cdndia",
-            "sabor": [
-                "Azedo",
-                " Doce"
+            "kind": "Condimento",
+            "scientific_name": "Bassica nigra",
+            "sci_name_feat": [
+                "Bassica",
+                "nigra"
             ],
-            "description": "Folhas longas e fibrosas com notas c\u00edtricas agudas.",
-            "gastronomic_application": "Marinadas caldos asi\u00e1ticos ch\u00e1s e carnes brancas.",
-            "conservation": "Fresco sob refrigera\u00e7\u00e3o ou seco em local escuro.",
-            "curiosities": "Muito utilizado na base da culin\u00e1ria tailandesa (como na sopa Tom Yum).",
-            "price": 40.00,
-            "images": [
-            	"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCexc7nk3JVfvbsB9XNvkYpQVHgbf1Vg3Fl8g3uzl4pv6eRx_XDoV8RIPSV26V3CDCcyg6Ebv5yfkcDItmeEW0Bs4DokYvORlIY_0Z5A&s=10"
-            ],
-            "id": "Campim lim\u00e3o"
-        },
-        {
-            "scientific_name": "Myristica fragrans",
             "other_names": "-",
-            "origin": "Indon\u00e9sia",
-            "sabor": [
-                "Amargo",
-                " Doce"
+            "origin": [
+                "Oeste da \u00c1sia",
+                " Sul da \u00c1sia",
+                " Europa Meridional",
+                " Norte da \u00c1frica"
             ],
-            "description": "Semente dura de aroma quente terroso e pungente.",
-            "gastronomic_application": "Molho bechamel pur\u00eas massas doces e bolos.",
-            "conservation": "Em semente inteira em local seco e ralada na hora.",
-            "curiosities": "A mesma planta produz o macis que \u00e9 o arilo vermelho que envolve a semente.",
-            "price": 150.00,
+            "scent": [
+                "Picante",
+                " Intenso"
+            ],
+            "description": "As sementes da mostarda podem ser usadas diretamente como especiarias. Mas podem ser trituradas, misturadas com \u00e1gua e vinagre e outros, virando o condimento mostarda.",
+            "gastronomic_application": "Molhos, carnes, sandu\u00edches",
+            "application_feat": [
+                "Molhos",
+                " carnes",
+                " sandu\u00edches"
+            ],
+            "conservation": [
+                "Pasta refrigerada"
+            ],
+            "curiosities": "Em Dijon, na Fran\u00e7a, a mostarda foi muito refinada, hoje em dia a Mostarda de Dijon \u00e9 renomada e conhecida no mundo todo.",
+            "price": 30,
             "images": [
-                "https://images.tcdn.com.br/img/img_prod/450860/muda_de_noz_moscada_638_1_9a367499c8104e8cd1b17c263a3e1bd3.jpg"
+                "https://static.itdg.com.br/images/640-auto/1949d78b8ea39d526450396b0f081ae2/isa-editorial-2026-02-26t090810.367.jpg"
             ],
-            "id": "Noz moscada"
+            "id": "Mostarda"
         },
         {
-            "scientific_name": "Cinnamomum verum",
-            "other_names": "Canela-do-ceil\u00e3o",
-            "origin": "Sri Lanka",
-            "sabor": [
-                "Doce",
+            "kind": "Especiaria",
+            "scientific_name": "Bassica nigra",
+            "sci_name_feat": [
+                "Bassica",
+                "nigra"
+            ],
+            "other_names": "-",
+            "origin": [
+                "Oeste da \u00c1sia",
+                " Sul da \u00c1sia",
+                " Europa Meridional",
+                " Norte da \u00c1frica"
+            ],
+            "scent": [
+                "Picante",
+                " Intenso"
+            ],
+            "description": "As sementes da mostarda podem ser usadas diretamente como especiarias. Mas podem ser trituradas, misturadas com \u00e1gua e vinagre e outros, virando o condimento mostarda.",
+            "gastronomic_application": "Molhos, carnes, condimentos",
+            "application_feat": [
+                "Molhos",
+                " carnes",
+                " condimentos"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "Em Dijon, na Fran\u00e7a, a mostarda foi muito refinada, hoje em dia a Mostarda de Dijon \u00e9 renomada e conhecida no mundo todo.",
+            "price": 50,
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsW4tkENXstLOVpEJaq46HMdTp_y0bdT_N9w&s"
+            ],
+            "id": "Mostarda em gr\u00e3os"
+        },
+        {
+            "kind": "Especiaria",
+            "scientific_name": "Myristica fragrans",
+            "sci_name_feat": [
+                "Myristica",
+                "fragrans"
+            ],
+            "other_names": "Muscadeira",
+            "origin": [
+                "Sudeste Asi\u00e1tico"
+            ],
+            "scent": [
+                "Amadeirado",
+                " Picante"
+            ],
+            "description": "\u00c1rvore tropical com origem na Indon\u00e9sia, ela produz a n\u00f3z-moscada (semente) e o macis (membrana vermelho-vivo da semente), ambas possuem aplica\u00e7\u00e3o gastron\u00f4mica.",
+            "gastronomic_application": "Molho branco, pures, doces, bebidas quentes",
+            "application_feat": [
+                "Molho branco",
+                " pures",
+                " doces",
+                " bebidas quentes"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "Original da Indon\u00e9sia, a \u00e1rvore da noz-moscada chega a ter 15 metros de altura.",
+            "price": 100,
+            "images": [
+                "https://blog.ingredientesonline.com.br/wp-content/uploads/2020/08/noz-moscada-696x462-1.jpg",
+                "https://www.sitiodamata.com.br/media/catalog/product/cache/80281f1a4d89199560fc0837e49d13da/n/o/noz-moscada-myristica-fragrans-1_2nd_1.webp"
+            ],
+            "id": "Noz-Moscada"
+        },
+        {
+            "kind": "Condimento",
+            "scientific_name": "-",
+            "sci_name_feat": [
+                "-"
+            ],
+            "other_names": "Laranja e pimenta",
+            "origin": [
+                "Am\u00e9rica Central",
+                " Am\u00e9rica do Norte"
+            ],
+            "scent": [
+                "C\u00edtrico",
+                " Picante",
+                " Fresco"
+            ],
+            "description": "Combina em propor\u00e7\u00e3o adequada acidez e c\u00edtrico da laranja com a pic\u00e2ncia da pimenta do reino e o terosso da c\u00farcuma.",
+            "gastronomic_application": "Peixes, frutos do mar, aves, doces",
+            "application_feat": [
+                "Peixes",
+                " frutos do mar",
+                " aves",
+                " doces"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "Orange pepper com chocolate!",
+            "price": 37,
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRivbiP8xg46b4kVR9ZZcYXmB195Dv3rfr3Q&s"
+            ],
+            "id": "Orange Pepper"
+        },
+        {
+            "kind": "Erva arom\u00e1tica",
+            "scientific_name": "Orgiganum vulgare",
+            "sci_name_feat": [
+                "Orgiganum",
+                "vulgare"
+            ],
+            "other_names": "Manjerona",
+            "origin": [
+                "Europa Meridional",
+                " Norte da \u00c1frica"
+            ],
+            "scent": [
+                "Picante",
+                " Fresco",
+                " Quente",
                 " Amargo"
             ],
-            "description": "Casca interna de \u00e1rvore enrolada com aroma quente e amadeirado.",
-            "gastronomic_application": "Sobremesas caf\u00e9s curries e pratos marroquinos.",
-            "conservation": "Em paus ou p\u00f3 em recipiente herm\u00e9tico e escuro.",
-            "curiosities": "No passado valia mais que ouro e era dada como presente a reis.",
-            "price": 90.00,
-            "images": [
-		"https://image.tuasaude.com/media/article/ns/sc/beneficios-da-canela_18873.jpg"
+            "description": "Erva da mesma fam\u00edlia da menta, folhas ovais e pontiagudas, pode ser usado fresco ou desidratado.",
+            "gastronomic_application": "Molhos, carnes, massas",
+            "application_feat": [
+                "Molhos",
+                " carnes",
+                " massas"
             ],
-            "id": "Canela"
+            "conservation": [
+                "Fresco: ramos limpos e enrolados em uma toalha umedecida",
+                " fechado",
+                " dentro da geladeira",
+                "Desdratado: local seco e fechado"
+            ],
+            "curiosities": "Or\u00e9gano, do grego \u1f40\u03c1\u03af\u03b3\u03b1\u03bd\u03bf\u03bd, vem de alegria da montanha, devido a planta prosperar em encostas.",
+            "price": 15,
+            "images": [
+                "https://media.istockphoto.com/id/653084104/pt/foto/fresh-and-dried-oregano-herb-on-wooden-background.jpg?s=612x612&w=0&k=20&c=IueZl5cqyLRNfg_pV1mGO-Qk29YsZnzpKOqmGgrqwng="
+            ],
+            "id": "Or\u00e9gano"
         },
         {
-            "scientific_name": "Curcuma longa",
-            "other_names": "A\u00e7afr\u00e3o-da-terra",
-            "origin": "\u00c1sia",
-            "sabor": [
-                "Amargo"
-            ],
-            "description": "Rizoma de cor alaranjada intensa com sabor terroso.",
-            "gastronomic_application": "Curries arrozes aves peixes e ch\u00e1s.",
-            "conservation": "Em p\u00f3 no escuro ou fresca na geladeira.",
-            "curiosities": "A curcumina precisa da pimenta preta para ter sua absor\u00e7\u00e3o otimizada no corpo.",
-            "price": 50.00,
-            "images": [
-                "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/05/curcuma.jpg?w=1200&h=900&crop=1"
-            ],
-            "id": "C\u00farcuma"
-        },
-        {
-            "scientific_name": "Piper nigrum",
-            "other_names": "Pimenta-do-reino",
-            "origin": "\u00cdndia",
-            "sabor": [
-                "Amargo"
-            ],
-            "description": "Bagas secas escuras com sabor picante e amadeirado.",
-            "gastronomic_application": "Base para temperos salgados carnes e molhos.",
-            "conservation": "Gr\u00e3os inteiros em moedor ao abrigo de luz.",
-            "curiosities": "\u00c9 a especiaria mais comercializada e consumida do mundo.",
-            "price": 60.00,
-            "images": [
-		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8_gMKr6g8We0MdDemegG7vbAi73ozkgGI7HztmSqGKuVn3Vp52_ROp3fKMjC5LkgdhO9pycIzbYgLsgXemY7wqW8tmHVh9Fz0MihKmA&s=10"
-            ],
-            "id": "Pimenta preta"
-        },
-        {
-            "scientific_name": "Thymus vulgaris",
-            "other_names": "Falso-or\u00e9gano",
-            "origin": "Mediterr\u00e2neo",
-            "sabor": [
-                "Amargo"
-            ],
-            "description": "Folhas min\u00fasculas com sabor herb\u00e1ceo e terroso.",
-            "gastronomic_application": "Carnes assadas ensopados molhos e batatas.",
-            "conservation": "Fresco na geladeira ou seco em vidro.",
-            "curiosities": "Na Gr\u00e9cia antiga era s\u00edmbolo de coragem e bravura.",
-            "price": 70.00,
-            "images": [
-		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSud7wM7DNA0aPOgwFnFgNIWAfkXWqk3beLOb3C83RbF4Kvfr014_G1BXhI8b4RhfEzdwwnws1i0gA8qIjlAnC2kKqn3xWoohyklTr6Q&s=10"
-            ],
-            "id": "Tomilho"
-        },
-        {
-            "scientific_name": "Capsicum annuum / Citrus x sinensis",
-            "other_names": "Pimenta com laranja",
-            "origin": "EUA (Blend)",
-            "sabor": [
-                "Salgado",
-                " Azedo",
-                " Doce"
-            ],
-            "description": "Mistura de pimenta casca de laranja e outras especiarias.",
-            "gastronomic_application": "Frutos do mar frango e legumes salteados.",
-            "conservation": "Pote herm\u00e9tico em local seco.",
-            "curiosities": "\u00c9 um blend moderno muito popularizado pelas parrillas e churrascos.",
-            "price": 110.00,
-            "images": [
-                "https://cdn.awsli.com.br/600x450/757/757669/produto/179275800/8a35d6272f.jpg"
-            ],
-            "id": "Orange peper"
-        },
-        {
+            "kind": "Especiaria",
             "scientific_name": "Capsicum annuum",
-            "other_names": "",
-            "origin": "Am\u00e9ricas",
-            "sabor": [
-                "Doce",
-                " Amargo"
+            "sci_name_feat": [
+                "Capsicum",
+                "annuum"
             ],
-            "description": "P\u00f3 avermelhado feito de piment\u00f5es secos e mo\u00eddos.",
-            "gastronomic_application": "Goulash paella carnes de porco e finaliza\u00e7\u00e3o de pratos.",
-            "conservation": "Local seco e escuro pois perde cor e sabor na luz.",
-            "curiosities": "Pode ser encontrada nas vers\u00f5es doce picante ou defumada.",
-            "price": 45.00,
+            "other_names": "P\u00e1prica doce",
+            "origin": [
+                "Am\u00e9rica Central"
+            ],
+            "scent": [
+                "Doce",
+                " Terroso",
+                " Frutado"
+            ],
+            "description": "Especiaria em p\u00f3, obitida da desidrata\u00e7\u00e3o e moagem de piment\u00f5es vermelhos maduros. N\u00e3o passa por outros processos, mantendo as caracteristicas naturais e adocicadas do piment\u00e3o.",
+            "gastronomic_application": "Carnes, legumes, caldos",
+            "application_feat": [
+                "Carnes",
+                " legumes",
+                " caldos"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "As cores do piment\u00e3o s\u00e3o determinadas pela matura\u00e7\u00e3o do piment\u00e3o: verde, amarelo, laranja e vermelho!",
+            "price": 18,
             "images": [
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Xhke8NKT3E3kNae5x8ATYUEADi1MXrRnVA&s"
+                "https://static.itdg.com.br/images/640-auto/04766900d23d9eef317a729eba762e1a/shutterstock-1936915771.jpg"
             ],
             "id": "P\u00e1prica"
         },
         {
-            "scientific_name": "Ocimum basilicum",
-            "other_names": "Manjeric\u00e3o-de-folha-larga",
-            "origin": "\u00c1sia e \u00c1frica",
-            "sabor": [
-                "Doce",
-                " Amargo"
+            "kind": "Condimento",
+            "scientific_name": "-",
+            "sci_name_feat": [
+                "-"
             ],
-            "description": "Folhas grandes verdes com notas que lembram cravo e anis.",
-            "gastronomic_application": "Pesto molhos de tomate pizzas e saladas.",
-            "conservation": "Fresca em copo com \u00e1gua ou na geladeira (muito sens\u00edvel ao frio).",
-            "curiosities": "Na \u00cdndia uma de suas parentes (Tulsi) \u00e9 considerada uma erva sagrada.",
-            "price": 30.00,
+            "other_names": "-",
+            "origin": [
+                "Europa Meridional"
+            ],
+            "scent": [
+                "Fresco",
+                " Herbal"
+            ],
+            "description": "Condimento emulsionado e r\u00fastico a base de Manjeric\u00e3o fresco, azeite, alho e queijo.",
+            "gastronomic_application": "Massas, bruschettas",
+            "application_feat": [
+                "Massas",
+                " bruschettas"
+            ],
+            "conservation": [
+                "Pasta refrigerada"
+            ],
+            "curiosities": "O nome vem do italiano pestare, ato de macerar, em refer\u00eancia ao uso do pil\u00e3o.",
+            "price": 120,
             "images": [
-                "https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3160435:1637168815/Alfavaca%20(1).webp?f=4x3&h=960&w=1280&$p$f$h$w=aeeee8d"
+                "https://static.itdg.com.br/images/1200-675/9585c32e32a16bd069b91ffb3d2f141f/346227-original.jpg"
             ],
-            "id": "Alfavaca"
+            "id": "Pesto"
         },
         {
-            "scientific_name": "Plectranthus amboinicus",
-            "other_names": "Malvari\u00e7o, Or\u00e9gano-cubano",
-            "origin": "\u00c1frica",
-            "sabor": [
-                "Amargo",
-                " Doce"
+            "kind": "Condimento",
+            "scientific_name": "Piper nigrum",
+            "sci_name_feat": [
+                "Piper",
+                "nigrum"
             ],
-            "description": "Folhas grossas e aveludadas com sabor forte pungente.",
-            "gastronomic_application": "Caldos fortes carnes de ca\u00e7a feij\u00e3o e ch\u00e1s.",
-            "conservation": "Fresco na geladeira envolto em papel toalha.",
-            "curiosities": "\u00c9 uma planta suculenta o que a diferencia das mentas e hortel\u00e3s comuns.",
-            "price": 25.00,
+            "other_names": "Pimenta preta, pimenta-redonda",
+            "origin": [
+                "Sul da \u00c1sia"
+            ],
+            "scent": [
+                "Resinoso",
+                " Picante",
+                " Amadeirado"
+            ],
+            "description": "Uma das especiarias mais antigas do mundo, a pimenta \u00e9 colhida ainda verde e seca ao sol por aproximadamente uma semanda, o que enruga e endure\u00e7e sua casca, dando seu visual caracter\u00edstico.",
+            "gastronomic_application": "Carnes, molhos, sopas",
+            "application_feat": [
+                "Carnes",
+                " molhos",
+                " sopas"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "Conhecida como Rainha das Especiarias, tamb\u00e9m j\u00e1 foi usada como moeda de compra, pagamentos impostos e passada como heran\u00e7a",
+            "price": 120,
             "images": [
-		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR56tv4GU3K4Z8LAi3hD2eau7vgiU2qAsQhfQ&s"
+                "https://conteudo.imguol.com.br/blogs/171/files/2020/03/iStock-469858939-1024x683.jpg"
             ],
-            "id": "Hortel\u00e3 grosso"
+            "id": "Pimenta-do-reino"
         },
         {
-            "scientific_name": "Cloreto de s\u00f3dio",
-            "other_names": "Sal de cozinha",
-            "origin": "Global",
-            "sabor": [
-                "Salgado"
+            "kind": "Erva arom\u00e1tica",
+            "scientific_name": "Petroselinum crispum",
+            "sci_name_feat": [
+                "Petroselinum",
+                "crispum"
             ],
-            "description": "Cristais brancos refinados de origem marinha ou mineral.",
-            "gastronomic_application": "Realce de sabor e conserva\u00e7\u00e3o em todos os pratos.",
-            "conservation": "Pote bem fechado para evitar umidade.",
-            "curiosities": "Foi amplamente usado como moeda de troca na antiguidade (origem da palavra sal\u00e1rio).",
-            "price": 3.00,
+            "other_names": "Salsinha",
+            "origin": [
+                "Europa Meridional",
+                " Norte da \u00c1frica",
+                " Oeste da \u00c1sia"
+            ],
+            "scent": [
+                "Delicado",
+                " Fresco"
+            ],
+            "description": "Erva de folhas verde-brilhantes, dispostas em roseta, lisas ou crespas dependendo da variedade. Pode ser utilizada fresca, com sua textura macia e cor vibrantem, quanto desidratada para alongar sua durabilidade.",
+            "gastronomic_application": "Saladas, molhos, arroz, decora\u00e7\u00e3o",
+            "application_feat": [
+                "Saladas",
+                " molhos",
+                " arroz",
+                " decora\u00e7\u00e3o"
+            ],
+            "conservation": [
+                "Fresco: ramos limpos e enrolados em uma toalha umedecida",
+                " fechado",
+                " dentro da geladeira",
+                "Desdratado: local seco e fechado"
+            ],
+            "curiosities": "Vendida em conjunto com cebolinha no cheiro-verde.",
+            "price": 19,
             "images": [
-            	"https://s2.glbimg.com/mtdE0RzoKlrYUU2joxbsLPdhz5M=/s.glbimg.com/jo/g1/f/original/2016/02/22/foto_sal.jpg"    
+                "https://i0.wp.com/casajardimsintonia.com.br/wp-content/uploads/2024/11/O-que-e-Salsinha-Petroselinum-crispum.jpg?resize=930%2C620&ssl=1"
             ],
-            "id": "Sal"
+            "id": "Salsa"
         },
         {
-            "scientific_name": "Glutamato Monoss\u00f3dico",
-            "other_names": "Ajinomoto",
-            "origin": "Jap\u00e3o",
-            "sabor": [
-                "Umami",
-                " Salgado"
+            "kind": "Erva arom\u00e1tica",
+            "scientific_name": "Salvia officinalis",
+            "sci_name_feat": [
+                "Salvia",
+                "officinalis"
             ],
-            "description": "Cristais brancos alongados que trazem forte saliva\u00e7\u00e3o.",
-            "gastronomic_application": "Culin\u00e1ria asi\u00e1tica caldos salgadinhos e carnes.",
-            "conservation": "Local seco e em temperatura ambiente.",
-            "curiosities": "Foi isolado pela primeira vez da alga kombu em 1908 por um cientista japon\u00eas.",
-            "price": 40.00,
+            "other_names": "Erva santa",
+            "origin": [
+                "Europa Meridional",
+                " Norte da \u00c1frica",
+                " Oeste da \u00c1sia"
+            ],
+            "scent": [
+                "Amadeirado",
+                " Picante",
+                " Herbal"
+            ],
+            "description": "Erva arom\u00e1tica de folhas verde-acinzentadas, rugosas e aveludadas. Pode ser usada fresca ou seca, dependendo da intensidade desejada",
+            "gastronomic_application": "Massas, carnes, manteigas",
+            "application_feat": [
+                "Massas",
+                " carnes",
+                " manteigas"
+            ],
+            "conservation": [
+                "Fresco: ramos limpos e enrolados em uma toalha umedecida",
+                " fechado",
+                " dentro da geladeira",
+                "Desdratado: local seco e fechado"
+            ],
+            "curiosities": "Seu nome vem do latim salveo: salvar ou curar.",
+            "price": 30,
             "images": [
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfrrl9F7zRCJOeBUKlgx6cynvMj6-xhdLnRg&s"
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThRjAeaD7XCNLgbefy4as8qZkV7ZFEPZfKBnduEIhrrkirjemiMAjreIdXOzGEfqxlD8DtKPnEjVweU2vmJ5VlSPZHPg8us_k6Xz4oZA&s=10"
             ],
-            "id": "MSG"
+            "id": "S\u00e1lvia"
         },
         {
-            "scientific_name": "Cloreto de s\u00f3dio",
-            "other_names": "Caviar marinho",
-            "origin": "Fran\u00e7a",
-            "sabor": [
-                "Salgado"
+            "kind": "Condimento",
+            "scientific_name": "-",
+            "sci_name_feat": [
+                "-"
             ],
-            "description": "Cristais finos delicados e crocantes.",
-            "gastronomic_application": "Finaliza\u00e7\u00e3o de pratos de alta gastronomia e doces finos (caramelo).",
-            "conservation": "Pote de vidro herm\u00e9tico longe de calor extremo.",
-            "curiosities": "Geralmente \u00e9 colhida \u00e0 m\u00e3o na superf\u00edcie das salinas em dias de vento calmo.",
-            "price": 180.00,
+            "other_names": "Manteiga de gergelim",
+            "origin": [
+                "Oeste da \u00c1sia"
+            ],
+            "scent": [
+                "Amendoado",
+                " Delicado",
+                " Oleoso"
+            ],
+            "description": "O tahine resulta da tosta e moagem do gergelim.",
+            "gastronomic_application": "Pastas, molhos, homus",
+            "application_feat": [
+                "Pastas",
+                " molhos",
+                " homus"
+            ],
+            "conservation": [
+                "Pasta refrigerada"
+            ],
+            "curiosities": "\u00c9 utilizado como espessante em molhos.",
+            "price": 120,
             "images": [
-                "https://cdn.awsli.com.br/600x450/757/757669/produto/187632267/401b8e50b3.jpg"
+                "https://essareceitafunciona.com.br/wp-content/uploads/2021/08/como-fazer-tahine-pasta-de-gergelim-Essa-Receita-Funciona-capa.jpg"
             ],
-            "id": "Flor de sal"
+            "id": "Tahine"
+        },
+        {
+            "kind": "Erva arom\u00e1tica",
+            "scientific_name": "Thymus vulgaris",
+            "sci_name_feat": [
+                "Thymus",
+                "vulgaris"
+            ],
+            "other_names": "Ar\u00e7\u00e3, ar\u00e7anha, timo",
+            "origin": [
+                "Europa Setentrional"
+            ],
+            "scent": [
+                "Herbal",
+                " Terroso",
+                " Refrescante",
+                " Intenso"
+            ],
+            "description": "Arbusto de pequenas folhas verdes. Seu uso fresco \u00e9 comum em infus\u00f5es, como no bouquet garni, mas tamb\u00e9m pode ser usado desidratado.",
+            "gastronomic_application": "Carnes, legumes, caldos",
+            "application_feat": [
+                "Carnes",
+                " legumes",
+                " caldos"
+            ],
+            "conservation": [
+                "Fresco: ramos limpos e enrolados em uma toalha umedecida",
+                " fechado",
+                " dentro da geladeira",
+                "Desdratado: local seco e fechado"
+            ],
+            "curiosities": "Tomilho foi usado como perfume na Gr\u00e9cia e embalsamado com m\u00famias no Egito antigo.",
+            "price": 25,
+            "images": [
+                "https://content.paodeacucar.com/wp-content/uploads/2020/06/para-que-serve-o-tomilho-ramos.jpg",
+                " https://static.wixstatic.com/media/af3863_fb4736e860ac446ca7fa335adbcc8f82~mv2.jpg/v1/fill/w_568",
+                "h_568",
+                "al_c",
+                "q_80",
+                "usm_0.66_1.00_0.01",
+                "enc_avif",
+                "quality_auto/af3863_fb4736e860ac446ca7fa335adbcc8f82~mv2.jpg"
+            ],
+            "id": "Tomilho"
+        },
+        {
+            "kind": "Condimento",
+            "scientific_name": "Wasabia japonica",
+            "sci_name_feat": [
+                "Wasabia",
+                "japonica"
+            ],
+            "other_names": "Raiz forte japonesa, mostarda japonesa",
+            "origin": [
+                "\u00c1sia Oriental"
+            ],
+            "scent": [
+                "Picante",
+                " Intenso",
+                " Refrescante"
+            ],
+            "description": "A planta \u00e9 cultivada com complexidade em \u00e1guas correntes e cristalinas, o wasabi \u00e9 o rizoma da planta ralado.",
+            "gastronomic_application": "Peixes",
+            "application_feat": [
+                "Peixes"
+            ],
+            "conservation": [
+                "Pasta refrigerada"
+            ],
+            "curiosities": "Em geral n\u00e3o temos acesso ao wasabi original (inclusive no Jap\u00e3o), mas sim a uma mistura de r\u00e1bano e mostardas.",
+            "price": 78,
+            "images": [
+                "https://files.agro20.com.br/uploads/2019/10/wasabi-2-1024x576.jpg"
+            ],
+            "id": "Wasabi"
+        },
+        {
+            "kind": "Condimento",
+            "scientific_name": "-",
+            "sci_name_feat": [
+                "-"
+            ],
+            "other_names": "-",
+            "origin": [
+                "Oeste da \u00c1sia"
+            ],
+            "scent": [
+                "Herbal",
+                " C\u00edtrico",
+                " Terroso",
+                " Intenso"
+            ],
+            "description": "Mistura de ervas, geralmente tomilho, gergelim tostado e sumagre.",
+            "gastronomic_application": "Massas, carnes",
+            "application_feat": [
+                "Massas",
+                " carnes"
+            ],
+            "conservation": [
+                "Local seco e fechado"
+            ],
+            "curiosities": "Assim como o curry, cada regi\u00e3o e fam\u00edlia tem sua pr\u00f3pria composi\u00e7\u00e3o do za'atar.",
+            "price": 37,
+            "images": [
+                "https://adrianatenchini.com.br/wp-content/uploads/2025/02/zaatar-1.jpg?w=640"
+            ],
+            "id": "Za'atar"
         }
     ],
     "edges": [
         {
-            "weight": 0.1690308509457033,
+            "weight": 0.07273929674533079,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Alecrim"
+        },
+        {
+            "weight": 0.051434449987363975,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Alfavaca"
+        },
+        {
+            "weight": 0.12830005981991682,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Alho em P\u00f3"
+        },
+        {
+            "weight": 0.0907218423253029,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Aroeira"
+        },
+        {
+            "weight": 0.055555555555555566,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Cacau"
+        },
+        {
+            "weight": 0.16666666666666669,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Camomila"
+        },
+        {
+            "weight": 0.08399210511316162,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Canela"
+        },
+        {
+            "weight": 0.04303314829119352,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Capim Lim\u00e3o"
+        },
+        {
+            "weight": 0.18257418583505539,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Cebola em P\u00f3"
+        },
+        {
+            "weight": 0.05802588531856595,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Cebolinha"
+        },
+        {
+            "weight": 0.04536092116265145,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Coentro de peixe"
+        },
+        {
+            "weight": 0.051434449987363975,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.04199605255658081,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "C\u00farcuma"
+        },
+        {
+            "weight": 0.049690399499995326,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Curry"
+        },
+        {
+            "weight": 0.049690399499995326,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Gergelim"
+        },
+        {
+            "weight": 0.05802588531856595,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Hortel\u00e3-Grosso"
+        },
+        {
+            "weight": 0.04415107856883479,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "L\u00edngua de vaca"
+        },
+        {
+            "weight": 0.04667600280093366,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.09335200560186732,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.140028008402801,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.140028008402801,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.09335200560186732,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.09938079899999065,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.09938079899999065,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.09335200560186732,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.05802588531856595,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.16412198797244362,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.08025723539051281,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.09335200560186732,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.13608276348795434,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.09622504486493763,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.055555555555555566,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.05802588531856595,
+            "source": "A\u00e7afr\u00e3o",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.10101525445522107,
+            "source": "Alecrim",
+            "target": "Alfavaca"
+        },
+        {
+            "weight": 0.1889822365046136,
+            "source": "Alecrim",
+            "target": "Alho em P\u00f3"
+        },
+        {
+            "weight": 0.1336306209562122,
+            "source": "Alecrim",
+            "target": "Aroeira"
+        },
+        {
+            "weight": 0.0545544725589981,
+            "source": "Alecrim",
+            "target": "Cacau"
+        },
+        {
+            "weight": 0.0545544725589981,
+            "source": "Alecrim",
+            "target": "Camomila"
+        },
+        {
+            "weight": 0.12371791482634838,
+            "source": "Alecrim",
+            "target": "Canela"
+        },
+        {
+            "weight": 0.1267731382092775,
+            "source": "Alecrim",
+            "target": "Capim Lim\u00e3o"
+        },
+        {
+            "weight": 0.17928429140015906,
+            "source": "Alecrim",
+            "target": "Cebola em P\u00f3"
+        },
+        {
+            "weight": 0.11396057645963795,
+            "source": "Alecrim",
+            "target": "Cebolinha"
+        },
+        {
+            "weight": 0.0890870806374748,
+            "source": "Alecrim",
+            "target": "Coentro de peixe"
+        },
+        {
+            "weight": 0.10101525445522107,
+            "source": "Alecrim",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.041239304942116126,
+            "source": "Alecrim",
+            "target": "C\u00farcuma"
+        },
+        {
+            "weight": 0.04879500364742665,
+            "source": "Alecrim",
+            "target": "Curry"
+        },
+        {
+            "weight": 0.04879500364742665,
+            "source": "Alecrim",
+            "target": "Gergelim"
+        },
+        {
+            "weight": 0.1709408646894569,
+            "source": "Alecrim",
+            "target": "Hortel\u00e3-Grosso"
+        },
+        {
+            "weight": 0.08671099695241198,
+            "source": "Alecrim",
+            "target": "L\u00edngua de vaca"
+        },
+        {
+            "weight": 0.13750477455423168,
+            "source": "Alecrim",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.09166984970282112,
+            "source": "Alecrim",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.18333969940564224,
+            "source": "Alecrim",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.18333969940564224,
+            "source": "Alecrim",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.04583492485141056,
+            "source": "Alecrim",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.0975900072948533,
+            "source": "Alecrim",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.24397501823713325,
+            "source": "Alecrim",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.09166984970282112,
+            "source": "Alecrim",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.11396057645963795,
+            "source": "Alecrim",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.16116459280507603,
+            "source": "Alecrim",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.15762208124782012,
+            "source": "Alecrim",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.13750477455423168,
+            "source": "Alecrim",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.13363062095621217,
+            "source": "Alecrim",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.2834733547569204,
+            "source": "Alecrim",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.1636634176769943,
+            "source": "Alecrim",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.1709408646894569,
+            "source": "Alecrim",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.0890870806374748,
+            "source": "Alfavaca",
+            "target": "Alho em P\u00f3"
+        },
+        {
+            "weight": 0.06299407883487121,
+            "source": "Alfavaca",
+            "target": "Aroeira"
+        },
+        {
+            "weight": 0.07715167498104597,
+            "source": "Alfavaca",
+            "target": "Cacau"
+        },
+        {
+            "weight": 0.15430334996209194,
+            "source": "Alfavaca",
+            "target": "Camomila"
+        },
+        {
+            "weight": 0.058321184351980436,
+            "source": "Alfavaca",
+            "target": "Canela"
+        },
+        {
+            "weight": 0.17928429140015906,
+            "source": "Alfavaca",
+            "target": "Capim Lim\u00e3o"
+        },
+        {
+            "weight": 0.08451542547285167,
+            "source": "Alfavaca",
+            "target": "Cebola em P\u00f3"
+        },
+        {
+            "weight": 0.16116459280507606,
+            "source": "Alfavaca",
+            "target": "Cebolinha"
+        },
+        {
+            "weight": 0.314970394174356,
+            "source": "Alfavaca",
+            "target": "Coentro de peixe"
+        },
+        {
+            "weight": 0.07142857142857144,
+            "source": "Alfavaca",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.11664236870396087,
+            "source": "Alfavaca",
+            "target": "C\u00farcuma"
+        },
+        {
+            "weight": 0.06900655593423542,
+            "source": "Alfavaca",
+            "target": "Curry"
+        },
+        {
+            "weight": 0.06900655593423542,
+            "source": "Alfavaca",
+            "target": "Gergelim"
+        },
+        {
+            "weight": 0.3223291856101521,
+            "source": "Alfavaca",
+            "target": "Hortel\u00e3-Grosso"
+        },
+        {
+            "weight": 0.12262786789699316,
+            "source": "Alfavaca",
+            "target": "L\u00edngua de vaca"
+        },
+        {
+            "weight": 0.12964074471043288,
+            "source": "Alfavaca",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.19446111706564934,
+            "source": "Alfavaca",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.19446111706564934,
+            "source": "Alfavaca",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.19446111706564934,
+            "source": "Alfavaca",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.06482037235521644,
+            "source": "Alfavaca",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.13801311186847084,
+            "source": "Alfavaca",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.20701966780270625,
+            "source": "Alfavaca",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.06482037235521644,
+            "source": "Alfavaca",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.08058229640253803,
+            "source": "Alfavaca",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.11396057645963795,
+            "source": "Alfavaca",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.16718346377260587,
+            "source": "Alfavaca",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.12964074471043288,
+            "source": "Alfavaca",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.0944911182523068,
+            "source": "Alfavaca",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.2672612419124244,
+            "source": "Alfavaca",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.15430334996209194,
+            "source": "Alfavaca",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.08058229640253803,
+            "source": "Alfavaca",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.15713484026367724,
+            "source": "Alho em P\u00f3",
+            "target": "Aroeira"
+        },
+        {
+            "weight": 0.28867513459481287,
+            "source": "Alho em P\u00f3",
+            "target": "Cacau"
+        },
+        {
+            "weight": 0.09622504486493763,
+            "source": "Alho em P\u00f3",
+            "target": "Camomila"
+        },
+        {
+            "weight": 0.21821789023599236,
+            "source": "Alho em P\u00f3",
+            "target": "Canela"
+        },
+        {
+            "weight": 0.07453559924999298,
+            "source": "Alho em P\u00f3",
+            "target": "Capim Lim\u00e3o"
+        },
+        {
+            "weight": 0.7378647873726218,
+            "source": "Alho em P\u00f3",
+            "target": "Cebola em P\u00f3"
+        },
+        {
+            "weight": 0.10050378152592121,
+            "source": "Alho em P\u00f3",
+            "target": "Cebolinha"
+        },
+        {
+            "weight": 0.07856742013183862,
+            "source": "Alho em P\u00f3",
+            "target": "Coentro de peixe"
+        },
+        {
+            "weight": 0.1781741612749496,
+            "source": "Alho em P\u00f3",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.14547859349066158,
+            "source": "Alho em P\u00f3",
+            "target": "C\u00farcuma"
+        },
+        {
+            "weight": 0.17213259316477406,
+            "source": "Alho em P\u00f3",
+            "target": "Curry"
+        },
+        {
+            "weight": 0.08606629658238703,
+            "source": "Alho em P\u00f3",
+            "target": "Gergelim"
+        },
+        {
+            "weight": 0.20100756305184242,
+            "source": "Alho em P\u00f3",
+            "target": "Hortel\u00e3-Grosso"
+        },
+        {
+            "weight": 0.07647191129018724,
+            "source": "Alho em P\u00f3",
+            "target": "L\u00edngua de vaca"
+        },
+        {
+            "weight": 0.16169041669088863,
+            "source": "Alho em P\u00f3",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.08084520834544431,
+            "source": "Alho em P\u00f3",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.24253562503633294,
+            "source": "Alho em P\u00f3",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.24253562503633294,
+            "source": "Alho em P\u00f3",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.08084520834544431,
+            "source": "Alho em P\u00f3",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.08606629658238703,
+            "source": "Alho em P\u00f3",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.3442651863295481,
+            "source": "Alho em P\u00f3",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.32338083338177726,
+            "source": "Alho em P\u00f3",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.20100756305184242,
+            "source": "Alho em P\u00f3",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.21320071635561041,
+            "source": "Alho em P\u00f3",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.13900960937138318,
+            "source": "Alho em P\u00f3",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.16169041669088863,
+            "source": "Alho em P\u00f3",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.35355339059327373,
+            "source": "Alho em P\u00f3",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.16666666666666666,
+            "source": "Alho em P\u00f3",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.09622504486493763,
+            "source": "Alho em P\u00f3",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.20100756305184242,
+            "source": "Alho em P\u00f3",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.06804138174397718,
+            "source": "Aroeira",
+            "target": "Cacau"
+        },
+        {
+            "weight": 0.13608276348795437,
+            "source": "Aroeira",
+            "target": "Camomila"
+        },
+        {
+            "weight": 0.15430334996209194,
+            "source": "Aroeira",
+            "target": "Canela"
+        },
+        {
+            "weight": 0.10540925533894599,
+            "source": "Aroeira",
+            "target": "Capim Lim\u00e3o"
+        },
+        {
+            "weight": 0.149071198499986,
+            "source": "Aroeira",
+            "target": "Cebola em P\u00f3"
+        },
+        {
+            "weight": 0.07106690545187015,
+            "source": "Aroeira",
+            "target": "Cebolinha"
+        },
+        {
+            "weight": 0.055555555555555566,
+            "source": "Aroeira",
+            "target": "Coentro de peixe"
+        },
+        {
+            "weight": 0.12598815766974242,
+            "source": "Aroeira",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.10286889997472795,
+            "source": "Aroeira",
+            "target": "C\u00farcuma"
+        },
+        {
+            "weight": 0.06085806194501846,
+            "source": "Aroeira",
+            "target": "Curry"
+        },
+        {
+            "weight": 0.12171612389003691,
+            "source": "Aroeira",
+            "target": "Gergelim"
+        },
+        {
+            "weight": 0.21320071635561044,
+            "source": "Aroeira",
+            "target": "Hortel\u00e3-Grosso"
+        },
+        {
+            "weight": 0.05407380704358751,
+            "source": "Aroeira",
+            "target": "L\u00edngua de vaca"
+        },
+        {
+            "weight": 0.17149858514250885,
+            "source": "Aroeira",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.17149858514250885,
+            "source": "Aroeira",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.1143323900950059,
+            "source": "Aroeira",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.1143323900950059,
+            "source": "Aroeira",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.17149858514250885,
+            "source": "Aroeira",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.18257418583505536,
+            "source": "Aroeira",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.24343224778007383,
+            "source": "Aroeira",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.1143323900950059,
+            "source": "Aroeira",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.07106690545187015,
+            "source": "Aroeira",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.20100756305184242,
+            "source": "Aroeira",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.09829463743659811,
+            "source": "Aroeira",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.17149858514250885,
+            "source": "Aroeira",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.08333333333333333,
+            "source": "Aroeira",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.11785113019775793,
+            "source": "Aroeira",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.06804138174397718,
+            "source": "Aroeira",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.1421338109037403,
+            "source": "Aroeira",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.08333333333333336,
+            "source": "Cacau",
+            "target": "Camomila"
+        },
+        {
+            "weight": 0.12598815766974242,
+            "source": "Cacau",
+            "target": "Canela"
+        },
+        {
+            "weight": 0.06454972243679029,
+            "source": "Cacau",
+            "target": "Capim Lim\u00e3o"
+        },
+        {
+            "weight": 0.27386127875258315,
+            "source": "Cacau",
+            "target": "Cebola em P\u00f3"
+        },
+        {
+            "weight": 0.08703882797784893,
+            "source": "Cacau",
+            "target": "Cebolinha"
+        },
+        {
+            "weight": 0.06804138174397718,
+            "source": "Cacau",
+            "target": "Coentro de peixe"
+        },
+        {
+            "weight": 0.07715167498104597,
+            "source": "Cacau",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.06299407883487121,
+            "source": "Cacau",
+            "target": "C\u00farcuma"
+        },
+        {
+            "weight": 0.07453559924999299,
+            "source": "Cacau",
+            "target": "Curry"
+        },
+        {
+            "weight": 0.07453559924999299,
+            "source": "Cacau",
+            "target": "Gergelim"
+        },
+        {
+            "weight": 0.08703882797784893,
+            "source": "Cacau",
+            "target": "Hortel\u00e3-Grosso"
+        },
+        {
+            "weight": 0.06622661785325219,
+            "source": "Cacau",
+            "target": "L\u00edngua de vaca"
+        },
+        {
+            "weight": 0.0700140042014005,
+            "source": "Cacau",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.0700140042014005,
+            "source": "Cacau",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.0700140042014005,
+            "source": "Cacau",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.0700140042014005,
+            "source": "Cacau",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.140028008402801,
+            "source": "Cacau",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.07453559924999299,
+            "source": "Cacau",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.07453559924999299,
+            "source": "Cacau",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.2100420126042015,
+            "source": "Cacau",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.08703882797784893,
+            "source": "Cacau",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.06154574548966637,
+            "source": "Cacau",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.06019292654288461,
+            "source": "Cacau",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.0700140042014005,
+            "source": "Cacau",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.2041241452319315,
+            "source": "Cacau",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.07216878364870323,
+            "source": "Cacau",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.08333333333333336,
+            "source": "Cacau",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.08703882797784893,
+            "source": "Cacau",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.12598815766974242,
+            "source": "Camomila",
+            "target": "Canela"
+        },
+        {
+            "weight": 0.19364916731037085,
+            "source": "Camomila",
+            "target": "Capim Lim\u00e3o"
+        },
+        {
+            "weight": 0.1825741858350554,
+            "source": "Camomila",
+            "target": "Cebola em P\u00f3"
+        },
+        {
+            "weight": 0.2611164839335468,
+            "source": "Camomila",
+            "target": "Cebolinha"
+        },
+        {
+            "weight": 0.20412414523193156,
+            "source": "Camomila",
+            "target": "Coentro de peixe"
+        },
+        {
+            "weight": 0.07715167498104597,
+            "source": "Camomila",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.18898223650461363,
+            "source": "Camomila",
+            "target": "C\u00farcuma"
+        },
+        {
+            "weight": 0.07453559924999299,
+            "source": "Camomila",
+            "target": "Curry"
+        },
+        {
+            "weight": 0.07453559924999299,
+            "source": "Camomila",
+            "target": "Gergelim"
+        },
+        {
+            "weight": 0.2611164839335468,
+            "source": "Camomila",
+            "target": "Hortel\u00e3-Grosso"
+        },
+        {
+            "weight": 0.1986798535597566,
+            "source": "Camomila",
+            "target": "L\u00edngua de vaca"
+        },
+        {
+            "weight": 0.140028008402801,
+            "source": "Camomila",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.35007002100700246,
             "source": "Camomila",
             "target": "Melissa"
         },
         {
-            "weight": 0.0,
+            "weight": 0.0700140042014005,
             "source": "Camomila",
-            "target": "Campim lim\u00e3o"
+            "target": "Mostarda"
         },
         {
-            "weight": 0.18257418583505539,
+            "weight": 0.0700140042014005,
             "source": "Camomila",
-            "target": "Noz moscada"
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.0700140042014005,
+            "source": "Camomila",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.07453559924999299,
+            "source": "Camomila",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.223606797749979,
+            "source": "Camomila",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.0700140042014005,
+            "source": "Camomila",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.17407765595569785,
+            "source": "Camomila",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.06154574548966637,
+            "source": "Camomila",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.18057877962865385,
+            "source": "Camomila",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.280056016805602,
+            "source": "Camomila",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.10206207261596575,
+            "source": "Camomila",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.14433756729740646,
+            "source": "Camomila",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.08333333333333336,
+            "source": "Camomila",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.08703882797784893,
+            "source": "Camomila",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.04879500364742666,
+            "source": "Canela",
+            "target": "Capim Lim\u00e3o"
+        },
+        {
+            "weight": 0.20701966780270625,
+            "source": "Canela",
+            "target": "Cebola em P\u00f3"
+        },
+        {
+            "weight": 0.1315903389919538,
+            "source": "Canela",
+            "target": "Cebolinha"
+        },
+        {
+            "weight": 0.10286889997472795,
+            "source": "Canela",
+            "target": "Coentro de peixe"
+        },
+        {
+            "weight": 0.11664236870396087,
+            "source": "Canela",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.09523809523809525,
+            "source": "Canela",
+            "target": "C\u00farcuma"
+        },
+        {
+            "weight": 0.1126872339638022,
+            "source": "Canela",
+            "target": "Curry"
+        },
+        {
+            "weight": 0.1126872339638022,
+            "source": "Canela",
+            "target": "Gergelim"
+        },
+        {
+            "weight": 0.1315903389919538,
+            "source": "Canela",
+            "target": "Hortel\u00e3-Grosso"
+        },
+        {
+            "weight": 0.10012523486435176,
+            "source": "Canela",
+            "target": "L\u00edngua de vaca"
+        },
+        {
+            "weight": 0.10585122480499264,
+            "source": "Canela",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.10585122480499264,
+            "source": "Canela",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.10585122480499264,
+            "source": "Canela",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.10585122480499264,
+            "source": "Canela",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.10585122480499264,
+            "source": "Canela",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.0563436169819011,
+            "source": "Canela",
+            "target": "Orange Pepper"
         },
         {
             "weight": 0.1690308509457033,
-            "source": "Camomila",
-            "target": "Canela"
+            "source": "Canela",
+            "target": "Or\u00e9gano"
         },
         {
-            "weight": 0.0,
-            "source": "Camomila",
-            "target": "C\u00farcuma"
-        },
-        {
-            "weight": 0.0,
-            "source": "Camomila",
-            "target": "Pimenta preta"
-        },
-        {
-            "weight": 0.0,
-            "source": "Camomila",
-            "target": "Tomilho"
-        },
-        {
-            "weight": 0.0,
-            "source": "Camomila",
-            "target": "Orange peper"
-        },
-        {
-            "weight": 0.0,
-            "source": "Camomila",
+            "weight": 0.10585122480499264,
+            "source": "Canela",
             "target": "P\u00e1prica"
         },
         {
-            "weight": 0.0,
-            "source": "Camomila",
-            "target": "Alfavaca"
+            "weight": 0.0657951694959769,
+            "source": "Canela",
+            "target": "Pesto"
         },
         {
-            "weight": 0.0,
-            "source": "Camomila",
-            "target": "Hortel\u00e3 grosso"
+            "weight": 0.13957263155977062,
+            "source": "Canela",
+            "target": "Pimenta-do-reino"
         },
         {
-            "weight": 0.0,
-            "source": "Camomila",
-            "target": "Sal"
+            "weight": 0.09100315103865803,
+            "source": "Canela",
+            "target": "Salsa"
         },
         {
-            "weight": 0.0,
-            "source": "Camomila",
-            "target": "MSG"
-        },
-        {
-            "weight": 0.0,
-            "source": "Camomila",
-            "target": "Flor de sal"
+            "weight": 0.15877683720748895,
+            "source": "Canela",
+            "target": "S\u00e1lvia"
         },
         {
             "weight": 0.1543033499620919,
-            "source": "Melissa",
-            "target": "Campim lim\u00e3o"
+            "source": "Canela",
+            "target": "Tahine"
         },
         {
-            "weight": 0.1543033499620919,
-            "source": "Melissa",
-            "target": "Noz moscada"
+            "weight": 0.1091089451179962,
+            "source": "Canela",
+            "target": "Tomilho"
         },
         {
-            "weight": 0.14285714285714282,
-            "source": "Melissa",
-            "target": "Canela"
+            "weight": 0.06299407883487121,
+            "source": "Canela",
+            "target": "Wasabi"
         },
         {
-            "weight": 0.0,
-            "source": "Melissa",
+            "weight": 0.1315903389919538,
+            "source": "Canela",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.07071067811865475,
+            "source": "Capim Lim\u00e3o",
+            "target": "Cebola em P\u00f3"
+        },
+        {
+            "weight": 0.13483997249264842,
+            "source": "Capim Lim\u00e3o",
+            "target": "Cebolinha"
+        },
+        {
+            "weight": 0.21081851067789198,
+            "source": "Capim Lim\u00e3o",
+            "target": "Coentro de peixe"
+        },
+        {
+            "weight": 0.05976143046671968,
+            "source": "Capim Lim\u00e3o",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.14638501094227996,
+            "source": "Capim Lim\u00e3o",
             "target": "C\u00farcuma"
         },
         {
-            "weight": 0.0,
-            "source": "Melissa",
-            "target": "Pimenta preta"
+            "weight": 0.05773502691896257,
+            "source": "Capim Lim\u00e3o",
+            "target": "Curry"
+        },
+        {
+            "weight": 0.11547005383792514,
+            "source": "Capim Lim\u00e3o",
+            "target": "Gergelim"
+        },
+        {
+            "weight": 0.3370999312316211,
+            "source": "Capim Lim\u00e3o",
+            "target": "Hortel\u00e3-Grosso"
+        },
+        {
+            "weight": 0.1025978352085154,
+            "source": "Capim Lim\u00e3o",
+            "target": "L\u00edngua de vaca"
+        },
+        {
+            "weight": 0.10846522890932808,
+            "source": "Capim Lim\u00e3o",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.2711630722733202,
+            "source": "Capim Lim\u00e3o",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.05423261445466404,
+            "source": "Capim Lim\u00e3o",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.05423261445466404,
+            "source": "Capim Lim\u00e3o",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.05423261445466404,
+            "source": "Capim Lim\u00e3o",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.23094010767585027,
+            "source": "Capim Lim\u00e3o",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.1732050807568877,
+            "source": "Capim Lim\u00e3o",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.05423261445466404,
+            "source": "Capim Lim\u00e3o",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.06741998624632421,
+            "source": "Capim Lim\u00e3o",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.04767312946227961,
+            "source": "Capim Lim\u00e3o",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.13987572123604708,
+            "source": "Capim Lim\u00e3o",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.10846522890932808,
+            "source": "Capim Lim\u00e3o",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.07905694150420947,
+            "source": "Capim Lim\u00e3o",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.16770509831248423,
+            "source": "Capim Lim\u00e3o",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.12909944487358058,
+            "source": "Capim Lim\u00e3o",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.13483997249264842,
+            "source": "Capim Lim\u00e3o",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.19069251784911848,
+            "source": "Cebola em P\u00f3",
+            "target": "Cebolinha"
+        },
+        {
+            "weight": 0.074535599249993,
+            "source": "Cebola em P\u00f3",
+            "target": "Coentro de peixe"
+        },
+        {
+            "weight": 0.16903085094570333,
+            "source": "Cebola em P\u00f3",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.06900655593423542,
+            "source": "Cebola em P\u00f3",
+            "target": "C\u00farcuma"
+        },
+        {
+            "weight": 0.0816496580927726,
+            "source": "Cebola em P\u00f3",
+            "target": "Curry"
+        },
+        {
+            "weight": 0.0816496580927726,
+            "source": "Cebola em P\u00f3",
+            "target": "Gergelim"
+        },
+        {
+            "weight": 0.19069251784911848,
+            "source": "Cebola em P\u00f3",
+            "target": "Hortel\u00e3-Grosso"
+        },
+        {
+            "weight": 0.14509525002200233,
+            "source": "Cebola em P\u00f3",
+            "target": "L\u00edngua de vaca"
+        },
+        {
+            "weight": 0.1533929977694741,
+            "source": "Cebola em P\u00f3",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.1533929977694741,
+            "source": "Cebola em P\u00f3",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.23008949665421113,
+            "source": "Cebola em P\u00f3",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.23008949665421113,
+            "source": "Cebola em P\u00f3",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.07669649888473705,
+            "source": "Cebola em P\u00f3",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.0816496580927726,
+            "source": "Cebola em P\u00f3",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.2449489742783178,
+            "source": "Cebola em P\u00f3",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.3067859955389482,
+            "source": "Cebola em P\u00f3",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.09534625892455924,
+            "source": "Cebola em P\u00f3",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.2696799449852968,
+            "source": "Cebola em P\u00f3",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.1318760946791574,
+            "source": "Cebola em P\u00f3",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.1533929977694741,
+            "source": "Cebola em P\u00f3",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.33541019662496846,
+            "source": "Cebola em P\u00f3",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.15811388300841897,
+            "source": "Cebola em P\u00f3",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.0912870929175277,
+            "source": "Cebola em P\u00f3",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.19069251784911848,
+            "source": "Cebola em P\u00f3",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.1421338109037403,
+            "source": "Cebolinha",
+            "target": "Coentro de peixe"
+        },
+        {
+            "weight": 0.08058229640253803,
+            "source": "Cebolinha",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.0657951694959769,
+            "source": "Cebolinha",
+            "target": "C\u00farcuma"
+        },
+        {
+            "weight": 0.0778498944161523,
+            "source": "Cebolinha",
+            "target": "Curry"
+        },
+        {
+            "weight": 0.1556997888323046,
+            "source": "Cebolinha",
+            "target": "Gergelim"
+        },
+        {
+            "weight": 0.18181818181818182,
+            "source": "Cebolinha",
+            "target": "Hortel\u00e3-Grosso"
+        },
+        {
+            "weight": 0.27668578554642986,
+            "source": "Cebolinha",
+            "target": "L\u00edngua de vaca"
+        },
+        {
+            "weight": 0.07312724241271307,
+            "source": "Cebolinha",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.07312724241271307,
+            "source": "Cebolinha",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.07312724241271307,
+            "source": "Cebolinha",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.07312724241271307,
+            "source": "Cebolinha",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.07312724241271307,
+            "source": "Cebolinha",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.1556997888323046,
+            "source": "Cebolinha",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.23354968324845687,
+            "source": "Cebolinha",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.07312724241271307,
+            "source": "Cebolinha",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.09090909090909091,
+            "source": "Cebolinha",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.12856486930664499,
+            "source": "Cebolinha",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.18860838403857944,
+            "source": "Cebolinha",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.14625448482542613,
+            "source": "Cebolinha",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.21320071635561041,
+            "source": "Cebolinha",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.15075567228888181,
+            "source": "Cebolinha",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.08703882797784893,
+            "source": "Cebolinha",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.09090909090909091,
+            "source": "Cebolinha",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.06299407883487121,
+            "source": "Coentro de peixe",
+            "target": "Cominho"
+        },
+        {
+            "weight": 0.15430334996209194,
+            "source": "Coentro de peixe",
+            "target": "C\u00farcuma"
+        },
+        {
+            "weight": 0.06085806194501846,
+            "source": "Coentro de peixe",
+            "target": "Curry"
+        },
+        {
+            "weight": 0.12171612389003691,
+            "source": "Coentro de peixe",
+            "target": "Gergelim"
+        },
+        {
+            "weight": 0.21320071635561044,
+            "source": "Coentro de peixe",
+            "target": "Hortel\u00e3-Grosso"
+        },
+        {
+            "weight": 0.21629522817435004,
+            "source": "Coentro de peixe",
+            "target": "L\u00edngua de vaca"
+        },
+        {
+            "weight": 0.1143323900950059,
+            "source": "Coentro de peixe",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.17149858514250885,
+            "source": "Coentro de peixe",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.1143323900950059,
+            "source": "Coentro de peixe",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.1143323900950059,
+            "source": "Coentro de peixe",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.05716619504750295,
+            "source": "Coentro de peixe",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.12171612389003691,
+            "source": "Coentro de peixe",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.18257418583505536,
+            "source": "Coentro de peixe",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.05716619504750295,
+            "source": "Coentro de peixe",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.07106690545187015,
+            "source": "Coentro de peixe",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.10050378152592121,
+            "source": "Coentro de peixe",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.14744195615489716,
+            "source": "Coentro de peixe",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.17149858514250885,
+            "source": "Coentro de peixe",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.08333333333333333,
+            "source": "Coentro de peixe",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.1767766952966369,
+            "source": "Coentro de peixe",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.13608276348795437,
+            "source": "Coentro de peixe",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.21320071635561044,
+            "source": "Coentro de peixe",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.058321184351980436,
+            "source": "Cominho",
+            "target": "C\u00farcuma"
+        },
+        {
+            "weight": 0.06900655593423542,
+            "source": "Cominho",
+            "target": "Curry"
+        },
+        {
+            "weight": 0.13801311186847084,
+            "source": "Cominho",
+            "target": "Gergelim"
+        },
+        {
+            "weight": 0.16116459280507606,
+            "source": "Cominho",
+            "target": "Hortel\u00e3-Grosso"
+        },
+        {
+            "weight": 0.06131393394849658,
+            "source": "Cominho",
+            "target": "L\u00edngua de vaca"
+        },
+        {
+            "weight": 0.19446111706564934,
+            "source": "Cominho",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.06482037235521644,
+            "source": "Cominho",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.12964074471043288,
+            "source": "Cominho",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.12964074471043288,
+            "source": "Cominho",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.06482037235521644,
+            "source": "Cominho",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.06900655593423542,
+            "source": "Cominho",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.13801311186847084,
+            "source": "Cominho",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.12964074471043288,
+            "source": "Cominho",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.08058229640253803,
+            "source": "Cominho",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.11396057645963795,
+            "source": "Cominho",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.05572782125753529,
+            "source": "Cominho",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.12964074471043288,
+            "source": "Cominho",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.0944911182523068,
+            "source": "Cominho",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.1336306209562122,
+            "source": "Cominho",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.07715167498104597,
+            "source": "Cominho",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.24174688920761409,
+            "source": "Cominho",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.1126872339638022,
+            "source": "C\u00farcuma",
+            "target": "Curry"
+        },
+        {
+            "weight": 0.0563436169819011,
+            "source": "C\u00farcuma",
+            "target": "Gergelim"
+        },
+        {
+            "weight": 0.19738550848793068,
+            "source": "C\u00farcuma",
+            "target": "Hortel\u00e3-Grosso"
+        },
+        {
+            "weight": 0.15018785229652765,
+            "source": "C\u00farcuma",
+            "target": "L\u00edngua de vaca"
+        },
+        {
+            "weight": 0.10585122480499264,
+            "source": "C\u00farcuma",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.15877683720748895,
+            "source": "C\u00farcuma",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.05292561240249632,
+            "source": "C\u00farcuma",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.05292561240249632,
+            "source": "C\u00farcuma",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.05292561240249632,
+            "source": "C\u00farcuma",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.1126872339638022,
+            "source": "C\u00farcuma",
+            "target": "Orange Pepper"
         },
         {
             "weight": 0.1690308509457033,
-            "source": "Melissa",
-            "target": "Tomilho"
-        },
-        {
-            "weight": 0.0,
-            "source": "Melissa",
-            "target": "Orange peper"
-        },
-        {
-            "weight": 0.0,
-            "source": "Melissa",
-            "target": "P\u00e1prica"
-        },
-        {
-            "weight": 0.28571428571428564,
-            "source": "Melissa",
-            "target": "Alfavaca"
-        },
-        {
-            "weight": 0.3086066999241838,
-            "source": "Melissa",
-            "target": "Hortel\u00e3 grosso"
-        },
-        {
-            "weight": 0.0,
-            "source": "Melissa",
-            "target": "Sal"
-        },
-        {
-            "weight": 0.1543033499620919,
-            "source": "Melissa",
-            "target": "MSG"
-        },
-        {
-            "weight": 0.0,
-            "source": "Melissa",
-            "target": "Flor de sal"
-        },
-        {
-            "weight": 0.0,
-            "source": "Campim lim\u00e3o",
-            "target": "Noz moscada"
-        },
-        {
-            "weight": 0.0,
-            "source": "Campim lim\u00e3o",
-            "target": "Canela"
-        },
-        {
-            "weight": 0.0,
-            "source": "Campim lim\u00e3o",
-            "target": "C\u00farcuma"
-        },
-        {
-            "weight": 0.0,
-            "source": "Campim lim\u00e3o",
-            "target": "Pimenta preta"
-        },
-        {
-            "weight": 0.18257418583505539,
-            "source": "Campim lim\u00e3o",
-            "target": "Tomilho"
-        },
-        {
-            "weight": 0.0,
-            "source": "Campim lim\u00e3o",
-            "target": "Orange peper"
-        },
-        {
-            "weight": 0.0,
-            "source": "Campim lim\u00e3o",
-            "target": "P\u00e1prica"
-        },
-        {
-            "weight": 0.3086066999241838,
-            "source": "Campim lim\u00e3o",
-            "target": "Alfavaca"
-        },
-        {
-            "weight": 0.1666666666666667,
-            "source": "Campim lim\u00e3o",
-            "target": "Hortel\u00e3 grosso"
-        },
-        {
-            "weight": 0.0,
-            "source": "Campim lim\u00e3o",
-            "target": "Sal"
-        },
-        {
-            "weight": 0.0,
-            "source": "Campim lim\u00e3o",
-            "target": "MSG"
-        },
-        {
-            "weight": 0.0,
-            "source": "Campim lim\u00e3o",
-            "target": "Flor de sal"
-        },
-        {
-            "weight": 0.3086066999241838,
-            "source": "Noz moscada",
-            "target": "Canela"
-        },
-        {
-            "weight": 0.0,
-            "source": "Noz moscada",
-            "target": "C\u00farcuma"
-        },
-        {
-            "weight": 0.0,
-            "source": "Noz moscada",
-            "target": "Pimenta preta"
-        },
-        {
-            "weight": 0.0,
-            "source": "Noz moscada",
-            "target": "Tomilho"
-        },
-        {
-            "weight": 0.0,
-            "source": "Noz moscada",
-            "target": "Orange peper"
-        },
-        {
-            "weight": 0.0,
-            "source": "Noz moscada",
-            "target": "P\u00e1prica"
-        },
-        {
-            "weight": 0.0,
-            "source": "Noz moscada",
-            "target": "Alfavaca"
-        },
-        {
-            "weight": 0.1666666666666667,
-            "source": "Noz moscada",
-            "target": "Hortel\u00e3 grosso"
-        },
-        {
-            "weight": 0.0,
-            "source": "Noz moscada",
-            "target": "Sal"
-        },
-        {
-            "weight": 0.0,
-            "source": "Noz moscada",
-            "target": "MSG"
-        },
-        {
-            "weight": 0.0,
-            "source": "Noz moscada",
-            "target": "Flor de sal"
-        },
-        {
-            "weight": 0.0,
-            "source": "Canela",
-            "target": "C\u00farcuma"
-        },
-        {
-            "weight": 0.1543033499620919,
-            "source": "Canela",
-            "target": "Pimenta preta"
-        },
-        {
-            "weight": 0.0,
-            "source": "Canela",
-            "target": "Tomilho"
-        },
-        {
-            "weight": 0.1543033499620919,
-            "source": "Canela",
-            "target": "Orange peper"
-        },
-        {
-            "weight": 0.0,
-            "source": "Canela",
-            "target": "P\u00e1prica"
-        },
-        {
-            "weight": 0.0,
-            "source": "Canela",
-            "target": "Alfavaca"
-        },
-        {
-            "weight": 0.0,
-            "source": "Canela",
-            "target": "Hortel\u00e3 grosso"
-        },
-        {
-            "weight": 0.0,
-            "source": "Canela",
-            "target": "Sal"
-        },
-        {
-            "weight": 0.0,
-            "source": "Canela",
-            "target": "MSG"
-        },
-        {
-            "weight": 0.0,
-            "source": "Canela",
-            "target": "Flor de sal"
-        },
-        {
-            "weight": 0.1666666666666667,
             "source": "C\u00farcuma",
-            "target": "Pimenta preta"
+            "target": "Or\u00e9gano"
         },
         {
-            "weight": 0.36514837167011077,
+            "weight": 0.05292561240249632,
+            "source": "C\u00farcuma",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.0657951694959769,
+            "source": "C\u00farcuma",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.04652421051992354,
+            "source": "C\u00farcuma",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.09100315103865803,
+            "source": "C\u00farcuma",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.10585122480499264,
+            "source": "C\u00farcuma",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.07715167498104596,
+            "source": "C\u00farcuma",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.1091089451179962,
             "source": "C\u00farcuma",
             "target": "Tomilho"
         },
         {
-            "weight": 0.0,
+            "weight": 0.06299407883487121,
             "source": "C\u00farcuma",
-            "target": "Orange peper"
+            "target": "Wasabi"
         },
         {
-            "weight": 0.0,
+            "weight": 0.0657951694959769,
             "source": "C\u00farcuma",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.06666666666666665,
+            "source": "Curry",
+            "target": "Gergelim"
+        },
+        {
+            "weight": 0.0778498944161523,
+            "source": "Curry",
+            "target": "Hortel\u00e3-Grosso"
+        },
+        {
+            "weight": 0.059234887775909226,
+            "source": "Curry",
+            "target": "L\u00edngua de vaca"
+        },
+        {
+            "weight": 0.06262242910851494,
+            "source": "Curry",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.06262242910851494,
+            "source": "Curry",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.06262242910851494,
+            "source": "Curry",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.06262242910851494,
+            "source": "Curry",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.06262242910851494,
+            "source": "Curry",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.06666666666666665,
+            "source": "Curry",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.1333333333333333,
+            "source": "Curry",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.06262242910851494,
+            "source": "Curry",
             "target": "P\u00e1prica"
         },
         {
-            "weight": 0.0,
-            "source": "C\u00farcuma",
-            "target": "Alfavaca"
+            "weight": 0.0778498944161523,
+            "source": "Curry",
+            "target": "Pesto"
         },
         {
-            "weight": 0.1666666666666667,
-            "source": "C\u00farcuma",
-            "target": "Hortel\u00e3 grosso"
+            "weight": 0.05504818825631802,
+            "source": "Curry",
+            "target": "Pimenta-do-reino"
         },
         {
-            "weight": 0.0,
-            "source": "C\u00farcuma",
-            "target": "Sal"
+            "weight": 0.053838190205816545,
+            "source": "Curry",
+            "target": "Salsa"
         },
         {
-            "weight": 0.0,
-            "source": "C\u00farcuma",
-            "target": "MSG"
+            "weight": 0.06262242910851494,
+            "source": "Curry",
+            "target": "S\u00e1lvia"
         },
         {
-            "weight": 0.0,
-            "source": "C\u00farcuma",
-            "target": "Flor de sal"
+            "weight": 0.09128709291752767,
+            "source": "Curry",
+            "target": "Tahine"
         },
         {
-            "weight": 0.18257418583505539,
-            "source": "Pimenta preta",
+            "weight": 0.06454972243679027,
+            "source": "Curry",
             "target": "Tomilho"
         },
         {
-            "weight": 0.0,
-            "source": "Pimenta preta",
-            "target": "Orange peper"
+            "weight": 0.07453559924999299,
+            "source": "Curry",
+            "target": "Wasabi"
         },
         {
-            "weight": 0.0,
-            "source": "Pimenta preta",
+            "weight": 0.0778498944161523,
+            "source": "Curry",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.1556997888323046,
+            "source": "Gergelim",
+            "target": "Hortel\u00e3-Grosso"
+        },
+        {
+            "weight": 0.11846977555181845,
+            "source": "Gergelim",
+            "target": "L\u00edngua de vaca"
+        },
+        {
+            "weight": 0.06262242910851494,
+            "source": "Gergelim",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.12524485821702988,
+            "source": "Gergelim",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.12524485821702988,
+            "source": "Gergelim",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.12524485821702988,
+            "source": "Gergelim",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.06262242910851494,
+            "source": "Gergelim",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.06666666666666665,
+            "source": "Gergelim",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.06666666666666665,
+            "source": "Gergelim",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.06262242910851494,
+            "source": "Gergelim",
             "target": "P\u00e1prica"
         },
         {
-            "weight": 0.0,
-            "source": "Pimenta preta",
-            "target": "Alfavaca"
+            "weight": 0.0778498944161523,
+            "source": "Gergelim",
+            "target": "Pesto"
         },
         {
-            "weight": 0.1666666666666667,
-            "source": "Pimenta preta",
-            "target": "Hortel\u00e3 grosso"
+            "weight": 0.05504818825631802,
+            "source": "Gergelim",
+            "target": "Pimenta-do-reino"
         },
         {
-            "weight": 0.0,
-            "source": "Pimenta preta",
-            "target": "Sal"
+            "weight": 0.10767638041163309,
+            "source": "Gergelim",
+            "target": "Salsa"
         },
         {
-            "weight": 0.0,
-            "source": "Pimenta preta",
-            "target": "MSG"
+            "weight": 0.06262242910851494,
+            "source": "Gergelim",
+            "target": "S\u00e1lvia"
         },
         {
-            "weight": 0.0,
-            "source": "Pimenta preta",
-            "target": "Flor de sal"
+            "weight": 0.18257418583505533,
+            "source": "Gergelim",
+            "target": "Tahine"
         },
         {
-            "weight": 0.0,
-            "source": "Tomilho",
-            "target": "Orange peper"
+            "weight": 0.06454972243679027,
+            "source": "Gergelim",
+            "target": "Tomilho"
         },
         {
-            "weight": 0.0,
-            "source": "Tomilho",
+            "weight": 0.07453559924999299,
+            "source": "Gergelim",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.1556997888323046,
+            "source": "Gergelim",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.13834289277321493,
+            "source": "Hortel\u00e3-Grosso",
+            "target": "L\u00edngua de vaca"
+        },
+        {
+            "weight": 0.2193817272381392,
+            "source": "Hortel\u00e3-Grosso",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.29250896965085227,
+            "source": "Hortel\u00e3-Grosso",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.14625448482542613,
+            "source": "Hortel\u00e3-Grosso",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.14625448482542613,
+            "source": "Hortel\u00e3-Grosso",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.07312724241271307,
+            "source": "Hortel\u00e3-Grosso",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.1556997888323046,
+            "source": "Hortel\u00e3-Grosso",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.3113995776646092,
+            "source": "Hortel\u00e3-Grosso",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.14625448482542613,
+            "source": "Hortel\u00e3-Grosso",
             "target": "P\u00e1prica"
         },
         {
-            "weight": 0.1690308509457033,
-            "source": "Tomilho",
-            "target": "Alfavaca"
+            "weight": 0.09090909090909091,
+            "source": "Hortel\u00e3-Grosso",
+            "target": "Pesto"
         },
         {
-            "weight": 0.36514837167011077,
-            "source": "Tomilho",
-            "target": "Hortel\u00e3 grosso"
+            "weight": 0.12856486930664499,
+            "source": "Hortel\u00e3-Grosso",
+            "target": "Pimenta-do-reino"
         },
         {
-            "weight": 0.0,
-            "source": "Tomilho",
-            "target": "Sal"
+            "weight": 0.18860838403857944,
+            "source": "Hortel\u00e3-Grosso",
+            "target": "Salsa"
         },
         {
-            "weight": 0.0,
-            "source": "Tomilho",
-            "target": "MSG"
+            "weight": 0.2193817272381392,
+            "source": "Hortel\u00e3-Grosso",
+            "target": "S\u00e1lvia"
         },
         {
-            "weight": 0.0,
-            "source": "Tomilho",
-            "target": "Flor de sal"
+            "weight": 0.10660035817780521,
+            "source": "Hortel\u00e3-Grosso",
+            "target": "Tahine"
         },
         {
-            "weight": 0.0,
-            "source": "Orange peper",
+            "weight": 0.30151134457776363,
+            "source": "Hortel\u00e3-Grosso",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.17407765595569785,
+            "source": "Hortel\u00e3-Grosso",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.18181818181818182,
+            "source": "Hortel\u00e3-Grosso",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.16692446522239715,
+            "source": "L\u00edngua de vaca",
+            "target": "Louro"
+        },
+        {
+            "weight": 0.16692446522239715,
+            "source": "L\u00edngua de vaca",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.05564148840746572,
+            "source": "L\u00edngua de vaca",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.05564148840746572,
+            "source": "L\u00edngua de vaca",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.05564148840746572,
+            "source": "L\u00edngua de vaca",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.059234887775909226,
+            "source": "L\u00edngua de vaca",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.17770466332772766,
+            "source": "L\u00edngua de vaca",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.05564148840746572,
+            "source": "L\u00edngua de vaca",
             "target": "P\u00e1prica"
         },
         {
-            "weight": 0.0,
-            "source": "Orange peper",
-            "target": "Alfavaca"
+            "weight": 0.06917144638660747,
+            "source": "L\u00edngua de vaca",
+            "target": "Pesto"
         },
         {
-            "weight": 0.0,
-            "source": "Orange peper",
-            "target": "Hortel\u00e3 grosso"
+            "weight": 0.09782319760890368,
+            "source": "L\u00edngua de vaca",
+            "target": "Pimenta-do-reino"
         },
         {
-            "weight": 0.0,
-            "source": "Orange peper",
-            "target": "Sal"
+            "weight": 0.19134594929397594,
+            "source": "L\u00edngua de vaca",
+            "target": "Salsa"
         },
         {
-            "weight": 0.0,
-            "source": "Orange peper",
-            "target": "MSG"
+            "weight": 0.16692446522239715,
+            "source": "L\u00edngua de vaca",
+            "target": "S\u00e1lvia"
         },
         {
-            "weight": 0.0,
-            "source": "Orange peper",
-            "target": "Flor de sal"
+            "weight": 0.16222142113076252,
+            "source": "L\u00edngua de vaca",
+            "target": "Tahine"
         },
         {
-            "weight": 0.0,
+            "weight": 0.11470786693528087,
+            "source": "L\u00edngua de vaca",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.06622661785325219,
+            "source": "L\u00edngua de vaca",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.06917144638660747,
+            "source": "L\u00edngua de vaca",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.11764705882352941,
+            "source": "Louro",
+            "target": "Melissa"
+        },
+        {
+            "weight": 0.11764705882352941,
+            "source": "Louro",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.11764705882352941,
+            "source": "Louro",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.11764705882352941,
+            "source": "Louro",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.06262242910851494,
+            "source": "Louro",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.1878672873255448,
+            "source": "Louro",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.11764705882352941,
+            "source": "Louro",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.07312724241271307,
+            "source": "Louro",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.10341753799900381,
+            "source": "Louro",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.1517165212272521,
+            "source": "Louro",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.1764705882352941,
+            "source": "Louro",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.08574929257125441,
+            "source": "Louro",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.18190171877724973,
+            "source": "Louro",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.0700140042014005,
+            "source": "Louro",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.14625448482542613,
+            "source": "Louro",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.058823529411764705,
+            "source": "Melissa",
+            "target": "Mostarda"
+        },
+        {
+            "weight": 0.058823529411764705,
+            "source": "Melissa",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.058823529411764705,
+            "source": "Melissa",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.06262242910851494,
+            "source": "Melissa",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.12524485821702988,
+            "source": "Melissa",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.058823529411764705,
+            "source": "Melissa",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.14625448482542613,
+            "source": "Melissa",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.05170876899950191,
+            "source": "Melissa",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.10114434748483472,
+            "source": "Melissa",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.1764705882352941,
+            "source": "Melissa",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.08574929257125441,
+            "source": "Melissa",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.24253562503633297,
+            "source": "Melissa",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.140028008402801,
+            "source": "Melissa",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.07312724241271307,
+            "source": "Melissa",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 1.0,
+            "source": "Mostarda",
+            "target": "Mostarda em gr\u00e3os"
+        },
+        {
+            "weight": 0.058823529411764705,
+            "source": "Mostarda",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.06262242910851494,
+            "source": "Mostarda",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.1878672873255448,
+            "source": "Mostarda",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.11764705882352941,
+            "source": "Mostarda",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.14625448482542613,
+            "source": "Mostarda",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.15512630699850571,
+            "source": "Mostarda",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.10114434748483472,
+            "source": "Mostarda",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.11764705882352941,
+            "source": "Mostarda",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.17149858514250882,
+            "source": "Mostarda",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.18190171877724973,
+            "source": "Mostarda",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.140028008402801,
+            "source": "Mostarda",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.2193817272381392,
+            "source": "Mostarda",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.058823529411764705,
+            "source": "Mostarda em gr\u00e3os",
+            "target": "Noz-Moscada"
+        },
+        {
+            "weight": 0.06262242910851494,
+            "source": "Mostarda em gr\u00e3os",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.1878672873255448,
+            "source": "Mostarda em gr\u00e3os",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.11764705882352941,
+            "source": "Mostarda em gr\u00e3os",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.14625448482542613,
+            "source": "Mostarda em gr\u00e3os",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.15512630699850571,
+            "source": "Mostarda em gr\u00e3os",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.10114434748483472,
+            "source": "Mostarda em gr\u00e3os",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.11764705882352941,
+            "source": "Mostarda em gr\u00e3os",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.17149858514250882,
+            "source": "Mostarda em gr\u00e3os",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.18190171877724973,
+            "source": "Mostarda em gr\u00e3os",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.140028008402801,
+            "source": "Mostarda em gr\u00e3os",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.2193817272381392,
+            "source": "Mostarda em gr\u00e3os",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.12524485821702988,
+            "source": "Noz-Moscada",
+            "target": "Orange Pepper"
+        },
+        {
+            "weight": 0.06262242910851494,
+            "source": "Noz-Moscada",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.058823529411764705,
+            "source": "Noz-Moscada",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.07312724241271307,
+            "source": "Noz-Moscada",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.10341753799900381,
+            "source": "Noz-Moscada",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.05057217374241736,
+            "source": "Noz-Moscada",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.11764705882352941,
+            "source": "Noz-Moscada",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.08574929257125441,
+            "source": "Noz-Moscada",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.06063390625908324,
+            "source": "Noz-Moscada",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.0700140042014005,
+            "source": "Noz-Moscada",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.07312724241271307,
+            "source": "Noz-Moscada",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.1333333333333333,
+            "source": "Orange Pepper",
+            "target": "Or\u00e9gano"
+        },
+        {
+            "weight": 0.06262242910851494,
+            "source": "Orange Pepper",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.0778498944161523,
+            "source": "Orange Pepper",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.16514456476895406,
+            "source": "Orange Pepper",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.10767638041163309,
+            "source": "Orange Pepper",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.12524485821702988,
+            "source": "Orange Pepper",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.09128709291752767,
+            "source": "Orange Pepper",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.12909944487358055,
+            "source": "Orange Pepper",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.14907119849998599,
+            "source": "Orange Pepper",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.1556997888323046,
+            "source": "Orange Pepper",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.12524485821702988,
+            "source": "Or\u00e9gano",
+            "target": "P\u00e1prica"
+        },
+        {
+            "weight": 0.1556997888323046,
+            "source": "Or\u00e9gano",
+            "target": "Pesto"
+        },
+        {
+            "weight": 0.16514456476895406,
+            "source": "Or\u00e9gano",
+            "target": "Pimenta-do-reino"
+        },
+        {
+            "weight": 0.3230291412348993,
+            "source": "Or\u00e9gano",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.3757345746510896,
+            "source": "Or\u00e9gano",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.18257418583505533,
+            "source": "Or\u00e9gano",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.38729833462074165,
+            "source": "Or\u00e9gano",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.07453559924999299,
+            "source": "Or\u00e9gano",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.23354968324845687,
+            "source": "Or\u00e9gano",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.07312724241271307,
             "source": "P\u00e1prica",
-            "target": "Alfavaca"
+            "target": "Pesto"
         },
         {
-            "weight": 0.0,
+            "weight": 0.10341753799900381,
             "source": "P\u00e1prica",
-            "target": "Hortel\u00e3 grosso"
+            "target": "Pimenta-do-reino"
         },
         {
-            "weight": 0.0,
+            "weight": 0.05057217374241736,
             "source": "P\u00e1prica",
-            "target": "Sal"
+            "target": "Salsa"
         },
         {
-            "weight": 0.0,
+            "weight": 0.11764705882352941,
             "source": "P\u00e1prica",
-            "target": "MSG"
+            "target": "S\u00e1lvia"
         },
         {
-            "weight": 0.0,
+            "weight": 0.17149858514250882,
             "source": "P\u00e1prica",
-            "target": "Flor de sal"
+            "target": "Tahine"
         },
         {
-            "weight": 0.1543033499620919,
-            "source": "Alfavaca",
-            "target": "Hortel\u00e3 grosso"
+            "weight": 0.12126781251816648,
+            "source": "P\u00e1prica",
+            "target": "Tomilho"
         },
         {
-            "weight": 0.0,
-            "source": "Alfavaca",
-            "target": "Sal"
+            "weight": 0.0700140042014005,
+            "source": "P\u00e1prica",
+            "target": "Wasabi"
         },
         {
-            "weight": 0.0,
-            "source": "Alfavaca",
-            "target": "MSG"
+            "weight": 0.14625448482542613,
+            "source": "P\u00e1prica",
+            "target": "Za'atar"
         },
         {
-            "weight": 0.0,
-            "source": "Alfavaca",
-            "target": "Flor de sal"
+            "weight": 0.06428243465332249,
+            "source": "Pesto",
+            "target": "Pimenta-do-reino"
         },
         {
-            "weight": 0.0,
-            "source": "Hortel\u00e3 grosso",
-            "target": "Sal"
+            "weight": 0.06286946134619315,
+            "source": "Pesto",
+            "target": "Salsa"
         },
         {
-            "weight": 0.1666666666666667,
-            "source": "Hortel\u00e3 grosso",
-            "target": "MSG"
+            "weight": 0.2193817272381392,
+            "source": "Pesto",
+            "target": "S\u00e1lvia"
         },
         {
-            "weight": 0.0,
-            "source": "Hortel\u00e3 grosso",
-            "target": "Flor de sal"
+            "weight": 0.10660035817780521,
+            "source": "Pesto",
+            "target": "Tahine"
         },
         {
-            "weight": 0.3333333333333334,
-            "source": "Sal",
-            "target": "MSG"
+            "weight": 0.07537783614444091,
+            "source": "Pesto",
+            "target": "Tomilho"
         },
         {
-            "weight": 0.20412414523193154,
-            "source": "Sal",
-            "target": "Flor de sal"
+            "weight": 0.08703882797784893,
+            "source": "Pesto",
+            "target": "Wasabi"
         },
         {
-            "weight": 0.20412414523193154,
-            "source": "MSG",
-            "target": "Flor de sal"
+            "weight": 0.18181818181818182,
+            "source": "Pesto",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.08891084489487741,
+            "source": "Pimenta-do-reino",
+            "target": "Salsa"
+        },
+        {
+            "weight": 0.15512630699850571,
+            "source": "Pimenta-do-reino",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.1507556722888818,
+            "source": "Pimenta-do-reino",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.10660035817780521,
+            "source": "Pimenta-do-reino",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.06154574548966637,
+            "source": "Pimenta-do-reino",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.12856486930664499,
+            "source": "Pimenta-do-reino",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.2528608687120868,
+            "source": "Salsa",
+            "target": "S\u00e1lvia"
+        },
+        {
+            "weight": 0.14744195615489714,
+            "source": "Salsa",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.20851441405707477,
+            "source": "Salsa",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.06019292654288461,
+            "source": "Salsa",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.06286946134619315,
+            "source": "Salsa",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.08574929257125441,
+            "source": "S\u00e1lvia",
+            "target": "Tahine"
+        },
+        {
+            "weight": 0.24253562503633297,
+            "source": "S\u00e1lvia",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.0700140042014005,
+            "source": "S\u00e1lvia",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.2193817272381392,
+            "source": "S\u00e1lvia",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.08838834764831843,
+            "source": "Tahine",
+            "target": "Tomilho"
+        },
+        {
+            "weight": 0.10206207261596575,
+            "source": "Tahine",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.10660035817780521,
+            "source": "Tahine",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.2165063509461097,
+            "source": "Tomilho",
+            "target": "Wasabi"
+        },
+        {
+            "weight": 0.22613350843332272,
+            "source": "Tomilho",
+            "target": "Za'atar"
+        },
+        {
+            "weight": 0.17407765595569785,
+            "source": "Wasabi",
+            "target": "Za'atar"
         }
     ]
 }

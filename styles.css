@@ -156,23 +156,26 @@ h2 {
     border: 2px solid var(--panel-border);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
     transition:
-        transform 0.2s ease,
-        box-shadow 0.25s ease,
-        border-color 0.25s ease;
+        transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+        box-shadow 0.3s ease,
+        border-color 0.3s ease,
+        border-width 0.2s ease;
 }
 
 .gallery_item:hover img {
-    transform: translateY(-2px);
+    transform: translateY(-6px) scale(1.06);
+    border-width: 3px;
     border-color: var(--accent-gold);
-    box-shadow: 0 0 20px rgba(196, 165, 116, 0.45);
+    box-shadow: 0 8px 24px rgba(196, 165, 116, 0.5);
 }
 
 .gallery_item--selected img {
-    transform: translateY(-2px);
+    transform: translateY(-6px) scale(1.06);
+    border-width: 3px;
     border-color: var(--accent-lavender);
     box-shadow:
-        0 0 0 3px rgba(154, 138, 184, 0.35),
-        0 0 24px rgba(196, 165, 116, 0.5);
+        0 0 0 4px rgba(154, 138, 184, 0.45),
+        0 12px 32px rgba(196, 165, 116, 0.6);
 }
 
 .gallery_item span,
@@ -505,7 +508,7 @@ select option {
 .info_grid {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 0.85rem 1.25rem;
+    gap: 0.25rem 1.25rem;
     align-items: center;
     margin-bottom: 16px;
 }
@@ -590,8 +593,21 @@ hr {
 .description_text {
     font-size: 0.98rem;
     line-height: 1.6;
-    color: var(--text-muted);
+    color: var(--text-primary);
     text-align: justify;
+}
+
+
+.curiosities_text::before {
+    content: "Curiosidades: ";
+    color: var(--text-primary);
+}
+
+.curiosities_text {
+    font-size: 0.98rem;
+    color: var(--text-primary);
+    text-align: justify;
+    margin-top: 5px;
 }
 
 .info_tags_footer {
@@ -620,6 +636,140 @@ hr {
     width: 50px;
     text-align: right;
     flex-shrink: 0;
+}
+
+/* KIND-BASED OVERHAUL COLORING */
+
+/* Erva aromática (Moss green) */
+.node.kind-erva-aromatica {
+    fill: rgba(107, 143, 113, 0.85);
+}
+
+.node.kind-erva-aromatica:hover {
+    fill: rgba(124, 166, 131, 1);
+    filter: drop-shadow(0 0 8px rgba(107, 143, 113, 0.7));
+}
+
+.node.kind-erva-aromatica.selected {
+    fill: rgba(107, 143, 113, 0.95);
+    stroke: #8cb393;
+    stroke-width: 2px;
+    filter: drop-shadow(0 0 10px rgba(107, 143, 113, 0.9));
+}
+
+.gallery_item.kind-erva-aromatica:hover img {
+    border-color: #8cb393;
+    box-shadow: 0 8px 24px rgba(107, 143, 113, 0.7), 0 0 12px rgba(107, 143, 113, 0.3);
+}
+
+.gallery_item.kind-erva-aromatica.gallery_item--selected img {
+    border-color: #a2c8a9;
+    box-shadow:
+        0 0 0 4px rgba(107, 143, 113, 0.45),
+        0 12px 32px rgba(107, 143, 113, 0.8);
+}
+
+/* Condimento (Lavender) */
+.node.kind-condimento {
+    fill: rgba(154, 138, 184, 0.85);
+}
+
+.node.kind-condimento:hover {
+    fill: rgba(180, 166, 209, 1);
+    filter: drop-shadow(0 0 8px rgba(154, 138, 184, 0.7));
+}
+
+.node.kind-condimento.selected {
+    fill: rgba(154, 138, 184, 0.95);
+    stroke: #b4a6d1;
+    stroke-width: 2px;
+    filter: drop-shadow(0 0 10px rgba(154, 138, 184, 0.9));
+}
+
+.gallery_item.kind-condimento:hover img {
+    border-color: #b4a6d1;
+    box-shadow: 0 8px 24px rgba(154, 138, 184, 0.7), 0 0 12px rgba(154, 138, 184, 0.3);
+}
+
+.gallery_item.kind-condimento.gallery_item--selected img {
+    border-color: #c8bcde;
+    box-shadow:
+        0 0 0 4px rgba(154, 138, 184, 0.45),
+        0 12px 32px rgba(154, 138, 184, 0.8);
+}
+
+/* Especiaria (Gold) */
+.node.kind-especiaria {
+    fill: rgba(196, 165, 116, 0.85);
+}
+
+.node.kind-especiaria:hover {
+    fill: rgba(217, 192, 150, 1);
+    filter: drop-shadow(0 0 8px rgba(196, 165, 116, 0.7));
+}
+
+.node.kind-especiaria.selected {
+    fill: rgba(196, 165, 116, 0.95);
+    stroke: #d9c096;
+    stroke-width: 2px;
+    filter: drop-shadow(0 0 10px rgba(196, 165, 116, 0.9));
+}
+
+.gallery_item.kind-especiaria:hover img {
+    border-color: #d9c096;
+    box-shadow: 0 8px 24px rgba(196, 165, 116, 0.7), 0 0 12px rgba(196, 165, 116, 0.3);
+}
+
+.gallery_item.kind-especiaria.gallery_item--selected img {
+    border-color: #ebd9b8;
+    box-shadow:
+        0 0 0 4px rgba(196, 165, 116, 0.45),
+        0 12px 32px rgba(196, 165, 116, 0.8);
+}
+
+/* Tipo Badges */
+.tipo_badge {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    transition: all 0.2s ease;
+}
+
+.tipo_badge.kind-erva-aromatica {
+    color: var(--accent-moss);
+    background: rgba(107, 143, 113, 0.12);
+    border: 1px solid rgba(107, 143, 113, 0.35);
+}
+
+.tipo_badge.kind-erva-aromatica:hover {
+    background: rgba(107, 143, 113, 0.22);
+    border-color: var(--accent-moss);
+}
+
+.tipo_badge.kind-condimento {
+    color: var(--accent-lavender);
+    background: rgba(154, 138, 184, 0.12);
+    border: 1px solid rgba(154, 138, 184, 0.35);
+}
+
+.tipo_badge.kind-condimento:hover {
+    background: rgba(154, 138, 184, 0.22);
+    border-color: var(--accent-lavender);
+}
+
+.tipo_badge.kind-especiaria {
+    color: var(--accent-gold);
+    background: rgba(196, 165, 116, 0.12);
+    border: 1px solid rgba(196, 165, 116, 0.35);
+}
+
+.tipo_badge.kind-especiaria:hover {
+    background: rgba(196, 165, 116, 0.22);
+    border-color: var(--accent-gold);
 }
 
 /* MOBILE */

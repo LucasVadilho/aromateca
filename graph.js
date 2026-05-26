@@ -1,3 +1,16 @@
+const EDGE_CONFIG = [
+    { id: "custom_distance", label: "Distância Personalizada", type: "static", visible: true, defaultThreshold: 0.2 },
+    { id: "scent", label: "Aroma", type: "node_field", visible: true },
+    { id: "origin", label: "Origem", type: "node_field", visible: true },
+    { id: "kind", label: "Tipo de Item", type: "node_field", visible: true },
+    { id: "gastronomic_application", label: "Aplicação Gastronômica", type: "node_field", visible: false },
+    { id: "scientific_name", label: "Nome Científico", type: "node_field", visible: false },
+    { id: "other_names", label: "Outros Nomes", type: "node_field", visible: false },
+    { id: "description", label: "Descrição", type: "node_field", visible: false },
+    { id: "curiosities", label: "Curiosidades", type: "node_field", visible: false },
+    { id: "conservation", label: "Conservação", type: "node_field", visible: true }
+];
+
 let rawData;
 let simulation;
 
@@ -155,17 +168,18 @@ fetch("./graph.json")
         const numericFields = Object.keys(sampleNode)
             .filter(key => typeof sampleNode[key] === "number");
 
-        const categoricalFields = Object.keys(sampleNode)
-            .filter(key =>
-                typeof sampleNode[key] === "string" ||
-                Array.isArray(sampleNode[key])
-            );
+        const defaultEdge = EDGE_CONFIG.find(cfg => cfg.visible)?.id || "custom_distance";
 
         buildGalery();
-        buildSelectors(categoricalFields, numericFields);
+        buildSelectors(numericFields);
         updateGraphDimensions();
-        renderGraph(categoricalFields[3], numericFields[0]);
+        renderGraph(defaultEdge, numericFields[0]);
     });
+
+function getKindClass(kind) {
+    if (!kind) return '';
+    return 'kind-' + kind.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, "-");
+}
 
 let buildGaleryItem = (element) => {
     let li = document.createElement("li");
@@ -174,6 +188,9 @@ let buildGaleryItem = (element) => {
 
     li.classList.add("splide__slide");
     li.classList.add("gallery_item");
+    if (element.kind) {
+        li.classList.add(getKindClass(element.kind));
+    }
     li.dataset.nodeId = element.id;
 
     img.src = element.images[0];
@@ -227,7 +244,7 @@ let buildGalery = () => {
     });
 
     splide.mount();
-    selectNode(rawData.nodes[14], { focusGraph: true });
+    selectNode(rawData.nodes[0], { focusGraph: true });
 
     galleryList.addEventListener("click", (event) => {
         const item = event.target.closest(".gallery_item");
@@ -239,25 +256,31 @@ let buildGalery = () => {
     });
 }
 
-function buildSelectors(edgeFields, sizeFields) {
+function buildSelectors(sizeFields) {
     const edgeSelector = document.getElementById("edgeSelector");
     const sizeSelector = document.getElementById("sizeSelector");
 
-    edgeFields.forEach(field => {
+    // Clear existing
+    edgeSelector.replaceChildren();
+    sizeSelector.replaceChildren();
+
+    EDGE_CONFIG.forEach(cfg => {
+        if (!cfg.visible) return;
         const option = document.createElement("option");
-        option.value = field;
-        option.textContent = field;
+        option.value = cfg.id;
+        option.textContent = cfg.label;
         edgeSelector.appendChild(option);
     });
 
     sizeFields.forEach(field => {
         const option = document.createElement("option");
         option.value = field;
-        option.textContent = field;
+        option.textContent = field === "price" ? "Preço" : field;
         sizeSelector.appendChild(option);
     });
 
-    edgeSelector.value = edgeFields[3];
+    const defaultEdge = EDGE_CONFIG.find(cfg => cfg.visible)?.id || "custom_distance";
+    edgeSelector.value = defaultEdge;
     sizeSelector.value = sizeFields[0];
 
     edgeSelector.addEventListener("change", updateGraph);
@@ -310,7 +333,22 @@ function renderGraph(edgeField, sizeField) {
 
     const nodes = structuredClone(rawData.nodes);
 
-    const links = generateLinks(nodes, edgeField);
+    let links = [];
+    const activeConfig = EDGE_CONFIG.find(cfg => cfg.id === edgeField);
+    if (activeConfig && activeConfig.type === "static") {
+        const thresholdSlider = document.getElementById("thresholdSlider");
+        const threshold = thresholdSlider ? parseFloat(thresholdSlider.value) : (activeConfig.defaultThreshold || 0.15);
+
+        links = (rawData.edges || [])
+            .filter(e => e.weight >= threshold)
+            .map(e => ({
+                source: e.source,
+                target: e.target,
+                weight: e.weight
+            }));
+    } else {
+        links = generateLinks(nodes, edgeField);
+    }
 
     const radiusScale = d3.scaleLinear()
         .domain(d3.extent(nodes, d => d[sizeField] || 1))
@@ -345,13 +383,15 @@ function renderGraph(edgeField, sizeField) {
         .selectAll("line")
         .data(links)
         .join("line")
-        .attr("class", "link");
+        .attr("class", "link")
+        .style("stroke-width", d => d.weight != null ? `${1.2 + d.weight * 6}px` : null)
+        .style("opacity", d => d.weight != null ? `${0.3 + d.weight * 0.7}` : null);
 
     const node = zoomGroup.append("g")
         .selectAll("circle")
         .data(nodes)
         .join("circle")
-        .attr("class", "node")
+        .attr("class", d => `node ${getKindClass(d.kind)}`)
         .attr("r", d => radiusScale(d[sizeField] || 1))
         .on("click", (event, d) => {
             event.stopPropagation();
@@ -511,25 +551,18 @@ function selectNode(nodeData, { focusGraph = false } = {}) {
     }
 }
 
-function renderSaborTags(sabor) {
-    const container = document.getElementById("sabor_tags");
+function renderTipoTag(kind) {
+    const container = document.getElementById("tipo_tag");
+    if (!container) return;
     container.replaceChildren();
 
-    const flavors = Array.isArray(sabor)
-        ? sabor
-        : sabor
-            ? [sabor]
-            : [];
+    if (!kind) return;
 
-    flavors.forEach(value => {
-        const text = String(value).trim();
-        if (!text) return;
-
-        const tag = document.createElement("span");
-        tag.className = "flavor_tag";
-        tag.textContent = text;
-        container.appendChild(tag);
-    });
+    const tag = document.createElement("span");
+    const kindClass = getKindClass(kind);
+    tag.className = `tipo_badge ${kindClass}`;
+    tag.textContent = kind;
+    container.appendChild(tag);
 }
 
 function renderAromaTags(aroma) {
@@ -604,19 +637,27 @@ let updateInfoBox = (e) => {
     let price = document.getElementById("price");
     let gastronomicApplications = document.getElementById("gastronomic_applications");
     let description = document.getElementById("description");
+    let conservation = document.getElementById("conservation");
+    let curiosities = document.getElementById("curiosities");
 
-    renderSaborTags(e.sabor);
-    renderAromaTags(e.aroma || aromaFallback[e.id] || []);
+    renderTipoTag(e.kind);
+    renderAromaTags(e.scent || e.aroma || aromaFallback[e.id] || []);
 
     origin.innerText = e.origin ?? "";
     otherNames.innerText = e.other_names ?? "";
     gastronomicApplications.innerText = e.gastronomic_application ?? "";
     description.innerText = e.description ?? "";
+    conservation.innerText = e.conservation ?? "";
+    curiosities.innerText = e.curiosities ?? "";
 
     if (e.price != null && e.price !== "") {
         price.innerText = typeof e.price === 'number' ? e.price.toFixed(2).replace('.', ',') : e.price;
     } else {
         price.innerText = "—";
+    }
+
+    if (e.id == "Açafrão") {
+        price.innerText = "180.000,00";
     }
 
     if (content) {
