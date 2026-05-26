@@ -1,9 +1,10 @@
 const EDGE_CONFIG = [
-    { id: "custom_distance", label: "Distância Personalizada", type: "static", visible: true, defaultThreshold: 0.2 },
+    { id: "custom_distance", label: "Distância Semântica", type: "static", visible: true, defaultThreshold: 0.225 },
     { id: "scent", label: "Aroma", type: "node_field", visible: true },
     { id: "origin", label: "Origem", type: "node_field", visible: true },
     { id: "kind", label: "Tipo de Item", type: "node_field", visible: true },
     { id: "gastronomic_application", label: "Aplicação Gastronômica", type: "node_field", visible: false },
+    { id: "application_feat", label: "Aplicação Gastronômica", type: "node_field", visible: true },
     { id: "scientific_name", label: "Nome Científico", type: "node_field", visible: false },
     { id: "other_names", label: "Outros Nomes", type: "node_field", visible: false },
     { id: "description", label: "Descrição", type: "node_field", visible: false },
@@ -385,13 +386,52 @@ function renderGraph(edgeField, sizeField) {
     let initialTransform = d3.zoomIdentity.scale(0.8);
     svg.call(zoomBehavior.transform, initialTransform);
 
-    const link = zoomGroup.append("g")
-        .selectAll("line")
+    const linkGroup = zoomGroup.append("g");
+
+    const link = linkGroup.selectAll(".link-visible")
         .data(links)
         .join("line")
         .attr("class", "link")
-        .style("stroke-width", d => d.weight != null ? `${1.2 + d.weight * 6}px` : null)
-        .style("opacity", d => d.weight != null ? `${0.3 + d.weight * 0.7}` : null);
+        .style("stroke-width", d => d.weight != null ? `${1.2 + d.weight * 6}px` : "1.5px")
+        .style("opacity", d => d.weight != null ? `${0.3 + d.weight * 0.7}` : "0.4");
+
+    const linkTrigger = linkGroup.selectAll(".link-trigger")
+        .data(links)
+        .join("line")
+        .attr("class", "link-trigger")
+        .style("stroke", "transparent")
+        .style("stroke-width", "16px")
+        .style("fill", "none")
+        .style("pointer-events", "stroke")
+        .on("pointerenter", (event, d) => {
+            d3.select(link.nodes()[links.indexOf(d)]).classed("is-hovered", true);
+
+            let labelText = activeConfig ? activeConfig.label : "Conexão";
+            let valueText = d.weight != null ? `${(d.weight * 100).toFixed(0)}%` : "";
+
+            if (activeConfig && activeConfig.type === "node_field") {
+                const srcNode = d.source;
+                const tgtNode = d.target;
+
+                if (srcNode && tgtNode) {
+                    const valA = srcNode[currentEdgeField];
+                    const valB = tgtNode[currentEdgeField];
+                    if (Array.isArray(valA) && Array.isArray(valB)) {
+                        const shared = valA.filter(v => valB.includes(v));
+                        if (shared.length > 0) valueText = `: ${shared.join(", ")}`;
+                    } else if (valA === valB && valA) {
+                        valueText = `: ${valA}`;
+                    }
+                }
+            }
+
+            showEdgeTooltip(event, `${labelText} ${valueText}`);
+        })
+        .on("pointerleave", (event, d) => {
+            d3.select(link.nodes()[links.indexOf(d)]).classed("is-hovered", false);
+
+            hideEdgeTooltip();
+        });
 
     const node = zoomGroup.append("g")
         .selectAll("circle")
@@ -459,6 +499,12 @@ function renderGraph(edgeField, sizeField) {
         });
 
         link
+            .attr("x1", d => d.source.x)
+            .attr("y1", d => d.source.y)
+            .attr("x2", d => d.target.x)
+            .attr("y2", d => d.target.y);
+
+        linkTrigger
             .attr("x1", d => d.source.x)
             .attr("y1", d => d.source.y)
             .attr("x2", d => d.target.x)
@@ -648,7 +694,7 @@ let updateInfoBox = (e) => {
     let price = document.getElementById("price");
     let gastronomicApplications = document.getElementById("gastronomic_applications");
     let description = document.getElementById("description");
-    let conservation = document.getElementById("conservation");
+    let storage = document.getElementById("storage");
     let curiosities = document.getElementById("curiosities");
 
     renderTipoTag(e.kind);
@@ -658,7 +704,7 @@ let updateInfoBox = (e) => {
     otherNames.innerText = e.other_names ?? "";
     gastronomicApplications.innerText = e.gastronomic_application ?? "";
     description.innerText = e.description ?? "";
-    conservation.innerText = e.conservation ?? "";
+    storage.innerText = e.conservation ?? "";
     curiosities.innerText = e.curiosities ?? "";
 
     if (e.price != null && e.price !== "") {
@@ -679,4 +725,31 @@ let updateInfoBox = (e) => {
         void footer.offsetWidth;
         footer.classList.add("reveal");
     }
+}
+
+let edgeTooltipEl = document.getElementById("edge-tooltip");
+if (!edgeTooltipEl) {
+    edgeTooltipEl = document.createElement("div");
+    edgeTooltipEl.id = "edge-tooltip";
+    edgeTooltipEl.style.position = "absolute";
+    edgeTooltipEl.style.padding = "6px 10px";
+    edgeTooltipEl.style.background = "rgba(0,0,0,0.8)";
+    edgeTooltipEl.style.color = "#fff";
+    edgeTooltipEl.style.borderRadius = "4px";
+    edgeTooltipEl.style.fontSize = "12px";
+    edgeTooltipEl.style.pointerEvents = "none";
+    edgeTooltipEl.style.display = "none";
+    edgeTooltipEl.style.zIndex = "1000";
+    document.body.appendChild(edgeTooltipEl);
+}
+
+function showEdgeTooltip(event, text) {
+    edgeTooltipEl.textContent = text;
+    edgeTooltipEl.style.display = "block";
+    edgeTooltipEl.style.left = `${event.pageX + 12}px`;
+    edgeTooltipEl.style.top = `${event.pageY - 12}px`;
+}
+
+function hideEdgeTooltip() {
+    edgeTooltipEl.style.display = "none";
 }
