@@ -324,7 +324,6 @@ function generateLinks(nodes, field) {
 }
 
 function renderGraph(edgeField, sizeField) {
-    console.log(edgeField, sizeField);
     currentEdgeField = edgeField;
     currentSizeField = sizeField;
     updateGraphDimensions();
@@ -350,20 +349,27 @@ function renderGraph(edgeField, sizeField) {
         links = generateLinks(nodes, edgeField);
     }
 
+    const isMobile = width < 600;
+
+    const maxRadius = isMobile ? 32 : 46;
+    const linkDistance = isMobile ? 50 : 90;
+    const chargeStrength = isMobile ? -100 : -240;
+    const blackHoleStrength = isMobile ? 0.1 : 0.05;
+
     const radiusScale = d3.scaleLinear()
         .domain(d3.extent(nodes, d => d[sizeField] || 1))
-        .range([8, 36]);
+        .range([6, maxRadius]);
 
     currentRadiusScale = radiusScale;
 
     simulation = d3.forceSimulation(nodes)
-        .force("link",
-            d3.forceLink(links)
-                .id(d => d.id)
-                .distance(90)
-        )
-        .force("charge", d3.forceManyBody().strength(-240))
-        .force("center", d3.forceCenter(width / 2, height / 2));
+        .force("link", d3.forceLink(links).id(d => d.id).distance(linkDistance))
+        .force("charge", d3.forceManyBody().strength(chargeStrength))
+        .force("x", d3.forceX(width / 2).strength(blackHoleStrength))
+        .force("y", d3.forceY(height / 2).strength(blackHoleStrength))
+        .force("collide", d3.forceCollide().radius(d => radiusScale(d[sizeField] || 1) + 4).iterations(3))
+        .force("center", d3.forceCenter(width / 2, height / 2))
+        .alphaTarget(0.02);
 
     zoomGroup = svg.append("g");
     simulationNodes = nodes;
@@ -436,15 +442,20 @@ function renderGraph(edgeField, sizeField) {
         node.classed("selected", d => d.id === selectedNodeId);
     }
 
+    let breathTime = 0;
+
     simulation.on("tick", () => {
+        breathTime += 0.015;
+
+        const baseStrength = isMobile ? 0.1 : 0.05;
+        const breathIntensity = isMobile ? 0.04 : 0.02;
+        const currentBlackHoleStrength = baseStrength + Math.sin(breathTime) * breathIntensity;
+
+        simulation.force("x").strength(currentBlackHoleStrength);
+        simulation.force("y").strength(currentBlackHoleStrength);
+
         nodes.forEach(d => {
-            const r = radiusScale(d[sizeField] || 1) || 8;
 
-            if (d.x < r) { d.x = r; d.vx *= -1; }
-            if (d.x > width - r) { d.x = width - r; d.vx *= -1; }
-
-            if (d.y < r) { d.y = r; d.vy *= -1; }
-            if (d.y > height - r) { d.y = height - r; d.vy *= -1; }
         });
 
         link
