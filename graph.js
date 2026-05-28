@@ -661,12 +661,19 @@ const aromaFallback = {
     "Flor de sal": ["mineral", "suave"]
 };
 
-function updateInfoSubtitle(id, scientificName) {
+let kindDict = {
+    "Erva aromática": "erva",
+    "Especiaria": "especiaria",
+    "Condimento": "condimento"
+}
+
+function updateInfoSubtitle(id, scientificName, kind) {
     const subtitle = document.getElementById("info_subtitle");
     const sciName = document.getElementById("cientific_name");
 
     subtitle.classList.remove("reveal");
     sciName.classList.remove("reveal");
+    sciName.classList.remove("erva", "especiaria", "condimento");
 
     subtitle.textContent = id ?? "";
     sciName.textContent = scientificName ?? "";
@@ -675,10 +682,11 @@ function updateInfoSubtitle(id, scientificName) {
 
     subtitle.classList.add("reveal");
     sciName.classList.add("reveal");
+    sciName.classList.add(kindDict[kind]);
 }
 
 let updateInfoBox = (e) => {
-    updateInfoSubtitle(e.id, e.scientific_name);
+    updateInfoSubtitle(e.id, e.scientific_name, e.kind);
 
     const content = document.querySelector(".info_content");
     const footer = document.querySelector(".info_tags_footer");
