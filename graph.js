@@ -234,14 +234,10 @@ let buildGalery = () => {
         type: 'loop',
         focus: 'center',
         speed: 2000,
-        perPage: 10,
+        autoWidth: true,
+        gap: '8px',
         perMove: 3,
         pagination: false,
-        breakpoints: {
-            1279: { perPage: 6 },
-            1023: { perPage: 4 },
-            767: { perPage: 3 },
-        },
     });
 
     splide.mount();
