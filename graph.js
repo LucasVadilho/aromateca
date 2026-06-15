@@ -169,7 +169,7 @@ fetch("./graph.json")
         const numericFields = Object.keys(sampleNode)
             .filter(key => typeof sampleNode[key] === "number");
 
-        const defaultEdge = EDGE_CONFIG.find(cfg => cfg.visible)?.id || "custom_distance";
+        const defaultEdge = "scent";
 
         buildGalery();
         buildSelectors(numericFields);
@@ -241,7 +241,7 @@ let buildGalery = () => {
     });
 
     splide.mount();
-    selectNode(rawData.nodes[0], { focusGraph: true });
+    selectNode(rawData.nodes[7], { focusGraph: true });
 
     galleryList.addEventListener("click", (event) => {
         const item = event.target.closest(".gallery_item");
